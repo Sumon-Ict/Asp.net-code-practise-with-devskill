@@ -1,0 +1,13 @@
+H:\Asp.net code\LinkExample02\LinkExample02\bin\Debug\netcoreapp3.1\LinkExample02.exe
+H:\Asp.net code\LinkExample02\LinkExample02\bin\Debug\netcoreapp3.1\LinkExample02.deps.json
+H:\Asp.net code\LinkExample02\LinkExample02\bin\Debug\netcoreapp3.1\LinkExample02.runtimeconfig.json
+H:\Asp.net code\LinkExample02\LinkExample02\bin\Debug\netcoreapp3.1\LinkExample02.runtimeconfig.dev.json
+H:\Asp.net code\LinkExample02\LinkExample02\bin\Debug\netcoreapp3.1\LinkExample02.dll
+H:\Asp.net code\LinkExample02\LinkExample02\bin\Debug\netcoreapp3.1\LinkExample02.pdb
+H:\Asp.net code\LinkExample02\LinkExample02\obj\Debug\netcoreapp3.1\LinkExample02.csprojAssemblyReference.cache
+H:\Asp.net code\LinkExample02\LinkExample02\obj\Debug\netcoreapp3.1\LinkExample02.AssemblyInfoInputs.cache
+H:\Asp.net code\LinkExample02\LinkExample02\obj\Debug\netcoreapp3.1\LinkExample02.AssemblyInfo.cs
+H:\Asp.net code\LinkExample02\LinkExample02\obj\Debug\netcoreapp3.1\LinkExample02.csproj.CoreCompileInputs.cache
+H:\Asp.net code\LinkExample02\LinkExample02\obj\Debug\netcoreapp3.1\LinkExample02.dll
+H:\Asp.net code\LinkExample02\LinkExample02\obj\Debug\netcoreapp3.1\LinkExample02.pdb
+H:\Asp.net code\LinkExample02\LinkExample02\obj\Debug\netcoreapp3.1\LinkExample02.genruntimeconfig.cache

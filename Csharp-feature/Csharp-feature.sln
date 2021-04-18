@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp-feature", "Csharp-feature\Csharp-feature.csproj", "{6E78F072-61EE-4E7F-8A4C-B189AFC27928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{C36BA219-7963-489B-AB49-6FF8FBD2F51B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action", "Action\Action.csproj", "{0631E768-E8F8-4B80-954D-B008FA8F9C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E78F072-61EE-4E7F-8A4C-B189AFC27928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E78F072-61EE-4E7F-8A4C-B189AFC27928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E78F072-61EE-4E7F-8A4C-B189AFC27928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E78F072-61EE-4E7F-8A4C-B189AFC27928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36BA219-7963-489B-AB49-6FF8FBD2F51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36BA219-7963-489B-AB49-6FF8FBD2F51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36BA219-7963-489B-AB49-6FF8FBD2F51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36BA219-7963-489B-AB49-6FF8FBD2F51B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0631E768-E8F8-4B80-954D-B008FA8F9C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0631E768-E8F8-4B80-954D-B008FA8F9C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0631E768-E8F8-4B80-954D-B008FA8F9C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0631E768-E8F8-4B80-954D-B008FA8F9C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A905BC14-66FB-4245-8AD3-5AD6844EBE47}
+	EndGlobalSection
+EndGlobal

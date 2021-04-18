@@ -1,0 +1,16 @@
+H:\Asp.net code\Csharp-feature\Event\bin\Debug\net5.0\Event.exe
+H:\Asp.net code\Csharp-feature\Event\bin\Debug\net5.0\Event.deps.json
+H:\Asp.net code\Csharp-feature\Event\bin\Debug\net5.0\Event.runtimeconfig.json
+H:\Asp.net code\Csharp-feature\Event\bin\Debug\net5.0\Event.runtimeconfig.dev.json
+H:\Asp.net code\Csharp-feature\Event\bin\Debug\net5.0\Event.dll
+H:\Asp.net code\Csharp-feature\Event\bin\Debug\net5.0\ref\Event.dll
+H:\Asp.net code\Csharp-feature\Event\bin\Debug\net5.0\Event.pdb
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.csprojAssemblyReference.cache
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.AssemblyInfoInputs.cache
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.AssemblyInfo.cs
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.dll
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\ref\Event.dll
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.pdb
+H:\Asp.net code\Csharp-feature\Event\obj\Debug\net5.0\Event.genruntimeconfig.cache

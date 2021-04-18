@@ -1,0 +1,16 @@
+H:\Asp.net code\Csharp-feature\Action\bin\Debug\net5.0\Action.exe
+H:\Asp.net code\Csharp-feature\Action\bin\Debug\net5.0\Action.deps.json
+H:\Asp.net code\Csharp-feature\Action\bin\Debug\net5.0\Action.runtimeconfig.json
+H:\Asp.net code\Csharp-feature\Action\bin\Debug\net5.0\Action.runtimeconfig.dev.json
+H:\Asp.net code\Csharp-feature\Action\bin\Debug\net5.0\Action.dll
+H:\Asp.net code\Csharp-feature\Action\bin\Debug\net5.0\ref\Action.dll
+H:\Asp.net code\Csharp-feature\Action\bin\Debug\net5.0\Action.pdb
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.csprojAssemblyReference.cache
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.AssemblyInfoInputs.cache
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.AssemblyInfo.cs
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.dll
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\ref\Action.dll
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.pdb
+H:\Asp.net code\Csharp-feature\Action\obj\Debug\net5.0\Action.genruntimeconfig.cache

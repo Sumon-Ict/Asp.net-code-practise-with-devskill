@@ -1,0 +1,16 @@
+H:\Asp.net code\LinkExample03\LinkExample03\bin\Debug\net5.0\LinkExample03.exe
+H:\Asp.net code\LinkExample03\LinkExample03\bin\Debug\net5.0\LinkExample03.deps.json
+H:\Asp.net code\LinkExample03\LinkExample03\bin\Debug\net5.0\LinkExample03.runtimeconfig.json
+H:\Asp.net code\LinkExample03\LinkExample03\bin\Debug\net5.0\LinkExample03.runtimeconfig.dev.json
+H:\Asp.net code\LinkExample03\LinkExample03\bin\Debug\net5.0\LinkExample03.dll
+H:\Asp.net code\LinkExample03\LinkExample03\bin\Debug\net5.0\ref\LinkExample03.dll
+H:\Asp.net code\LinkExample03\LinkExample03\bin\Debug\net5.0\LinkExample03.pdb
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.csprojAssemblyReference.cache
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.AssemblyInfoInputs.cache
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.AssemblyInfo.cs
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.csproj.CoreCompileInputs.cache
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.dll
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\ref\LinkExample03.dll
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.pdb
+H:\Asp.net code\LinkExample03\LinkExample03\obj\Debug\net5.0\LinkExample03.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+H:\Asp.net code\Csharp-feature\ThreadExmaple\bin\Debug\net5.0\ThreadExmaple.exe
+H:\Asp.net code\Csharp-feature\ThreadExmaple\bin\Debug\net5.0\ThreadExmaple.deps.json
+H:\Asp.net code\Csharp-feature\ThreadExmaple\bin\Debug\net5.0\ThreadExmaple.runtimeconfig.json
+H:\Asp.net code\Csharp-feature\ThreadExmaple\bin\Debug\net5.0\ThreadExmaple.runtimeconfig.dev.json
+H:\Asp.net code\Csharp-feature\ThreadExmaple\bin\Debug\net5.0\ThreadExmaple.dll
+H:\Asp.net code\Csharp-feature\ThreadExmaple\bin\Debug\net5.0\ref\ThreadExmaple.dll
+H:\Asp.net code\Csharp-feature\ThreadExmaple\bin\Debug\net5.0\ThreadExmaple.pdb
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.AssemblyInfoInputs.cache
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.AssemblyInfo.cs
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.dll
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ref\ThreadExmaple.dll
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.pdb
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.genruntimeconfig.cache
+H:\Asp.net code\Csharp-feature\ThreadExmaple\obj\Debug\net5.0\ThreadExmaple.csprojAssemblyReference.cache

@@ -1,0 +1,16 @@
+H:\Asp.net code\ExamQ\ExamQ\bin\Debug\net5.0\ExamQ.exe
+H:\Asp.net code\ExamQ\ExamQ\bin\Debug\net5.0\ExamQ.deps.json
+H:\Asp.net code\ExamQ\ExamQ\bin\Debug\net5.0\ExamQ.runtimeconfig.json
+H:\Asp.net code\ExamQ\ExamQ\bin\Debug\net5.0\ExamQ.runtimeconfig.dev.json
+H:\Asp.net code\ExamQ\ExamQ\bin\Debug\net5.0\ExamQ.dll
+H:\Asp.net code\ExamQ\ExamQ\bin\Debug\net5.0\ref\ExamQ.dll
+H:\Asp.net code\ExamQ\ExamQ\bin\Debug\net5.0\ExamQ.pdb
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.csprojAssemblyReference.cache
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.AssemblyInfoInputs.cache
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.AssemblyInfo.cs
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.csproj.CoreCompileInputs.cache
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.dll
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ref\ExamQ.dll
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.pdb
+H:\Asp.net code\ExamQ\ExamQ\obj\Debug\net5.0\ExamQ.genruntimeconfig.cache

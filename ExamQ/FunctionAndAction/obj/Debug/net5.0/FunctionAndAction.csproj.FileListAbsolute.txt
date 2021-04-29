@@ -1,0 +1,16 @@
+H:\Asp.net code\ExamQ\FunctionAndAction\bin\Debug\net5.0\FunctionAndAction.exe
+H:\Asp.net code\ExamQ\FunctionAndAction\bin\Debug\net5.0\FunctionAndAction.deps.json
+H:\Asp.net code\ExamQ\FunctionAndAction\bin\Debug\net5.0\FunctionAndAction.runtimeconfig.json
+H:\Asp.net code\ExamQ\FunctionAndAction\bin\Debug\net5.0\FunctionAndAction.runtimeconfig.dev.json
+H:\Asp.net code\ExamQ\FunctionAndAction\bin\Debug\net5.0\FunctionAndAction.dll
+H:\Asp.net code\ExamQ\FunctionAndAction\bin\Debug\net5.0\ref\FunctionAndAction.dll
+H:\Asp.net code\ExamQ\FunctionAndAction\bin\Debug\net5.0\FunctionAndAction.pdb
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.csprojAssemblyReference.cache
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.AssemblyInfoInputs.cache
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.AssemblyInfo.cs
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.csproj.CoreCompileInputs.cache
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.dll
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\ref\FunctionAndAction.dll
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.pdb
+H:\Asp.net code\ExamQ\FunctionAndAction\obj\Debug\net5.0\FunctionAndAction.genruntimeconfig.cache

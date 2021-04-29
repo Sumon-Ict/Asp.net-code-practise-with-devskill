@@ -1,0 +1,16 @@
+H:\Asp.net code\LinkQuery\LinkQuery\bin\Debug\net5.0\LinkQuery.exe
+H:\Asp.net code\LinkQuery\LinkQuery\bin\Debug\net5.0\LinkQuery.deps.json
+H:\Asp.net code\LinkQuery\LinkQuery\bin\Debug\net5.0\LinkQuery.runtimeconfig.json
+H:\Asp.net code\LinkQuery\LinkQuery\bin\Debug\net5.0\LinkQuery.runtimeconfig.dev.json
+H:\Asp.net code\LinkQuery\LinkQuery\bin\Debug\net5.0\LinkQuery.dll
+H:\Asp.net code\LinkQuery\LinkQuery\bin\Debug\net5.0\ref\LinkQuery.dll
+H:\Asp.net code\LinkQuery\LinkQuery\bin\Debug\net5.0\LinkQuery.pdb
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.csprojAssemblyReference.cache
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.AssemblyInfoInputs.cache
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.AssemblyInfo.cs
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.csproj.CoreCompileInputs.cache
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.dll
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\ref\LinkQuery.dll
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.pdb
+H:\Asp.net code\LinkQuery\LinkQuery\obj\Debug\net5.0\LinkQuery.genruntimeconfig.cache

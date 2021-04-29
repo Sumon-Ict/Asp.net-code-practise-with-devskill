@@ -1,0 +1,16 @@
+H:\Asp.net code\DictionaryExample\DictionaryExample\bin\Debug\net5.0\DictionaryExample.exe
+H:\Asp.net code\DictionaryExample\DictionaryExample\bin\Debug\net5.0\DictionaryExample.deps.json
+H:\Asp.net code\DictionaryExample\DictionaryExample\bin\Debug\net5.0\DictionaryExample.runtimeconfig.json
+H:\Asp.net code\DictionaryExample\DictionaryExample\bin\Debug\net5.0\DictionaryExample.runtimeconfig.dev.json
+H:\Asp.net code\DictionaryExample\DictionaryExample\bin\Debug\net5.0\DictionaryExample.dll
+H:\Asp.net code\DictionaryExample\DictionaryExample\bin\Debug\net5.0\ref\DictionaryExample.dll
+H:\Asp.net code\DictionaryExample\DictionaryExample\bin\Debug\net5.0\DictionaryExample.pdb
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.csprojAssemblyReference.cache
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.AssemblyInfoInputs.cache
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.AssemblyInfo.cs
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.csproj.CoreCompileInputs.cache
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.dll
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\ref\DictionaryExample.dll
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.pdb
+H:\Asp.net code\DictionaryExample\DictionaryExample\obj\Debug\net5.0\DictionaryExample.genruntimeconfig.cache

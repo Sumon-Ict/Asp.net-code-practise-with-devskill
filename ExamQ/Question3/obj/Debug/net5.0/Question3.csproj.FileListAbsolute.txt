@@ -1,0 +1,16 @@
+H:\Asp.net code\ExamQ\Question3\bin\Debug\net5.0\Question3.exe
+H:\Asp.net code\ExamQ\Question3\bin\Debug\net5.0\Question3.deps.json
+H:\Asp.net code\ExamQ\Question3\bin\Debug\net5.0\Question3.runtimeconfig.json
+H:\Asp.net code\ExamQ\Question3\bin\Debug\net5.0\Question3.runtimeconfig.dev.json
+H:\Asp.net code\ExamQ\Question3\bin\Debug\net5.0\Question3.dll
+H:\Asp.net code\ExamQ\Question3\bin\Debug\net5.0\ref\Question3.dll
+H:\Asp.net code\ExamQ\Question3\bin\Debug\net5.0\Question3.pdb
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.csprojAssemblyReference.cache
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.AssemblyInfoInputs.cache
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.AssemblyInfo.cs
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.csproj.CoreCompileInputs.cache
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.dll
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\ref\Question3.dll
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.pdb
+H:\Asp.net code\ExamQ\Question3\obj\Debug\net5.0\Question3.genruntimeconfig.cache

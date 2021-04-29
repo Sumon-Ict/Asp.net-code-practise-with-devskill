@@ -1,0 +1,16 @@
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\bin\Debug\net5.0\CsharpNewFeature.exe
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\bin\Debug\net5.0\CsharpNewFeature.deps.json
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\bin\Debug\net5.0\CsharpNewFeature.runtimeconfig.json
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\bin\Debug\net5.0\CsharpNewFeature.runtimeconfig.dev.json
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\bin\Debug\net5.0\CsharpNewFeature.dll
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\bin\Debug\net5.0\ref\CsharpNewFeature.dll
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\bin\Debug\net5.0\CsharpNewFeature.pdb
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.csprojAssemblyReference.cache
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.AssemblyInfoInputs.cache
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.AssemblyInfo.cs
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.csproj.CoreCompileInputs.cache
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.dll
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\ref\CsharpNewFeature.dll
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.pdb
+H:\Asp.net code\CsharpNewFeature\CsharpNewFeature\obj\Debug\net5.0\CsharpNewFeature.genruntimeconfig.cache

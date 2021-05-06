@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\bin\Debug\net5.0\Link_101_Example.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\bin\Debug\net5.0\Link_101_Example.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\bin\Debug\net5.0\Link_101_Example.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\bin\Debug\net5.0\Link_101_Example.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\bin\Debug\net5.0\Link_101_Example.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\bin\Debug\net5.0\ref\Link_101_Example.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\bin\Debug\net5.0\Link_101_Example.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\ref\Link_101_Example.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Link_101_Example\obj\Debug\net5.0\Link_101_Example.genruntimeconfig.cache

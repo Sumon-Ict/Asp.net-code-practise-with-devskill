@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\bin\Debug\net5.0\Ordering.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\bin\Debug\net5.0\Ordering.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\bin\Debug\net5.0\Ordering.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\bin\Debug\net5.0\Ordering.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\bin\Debug\net5.0\Ordering.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\bin\Debug\net5.0\ref\Ordering.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\bin\Debug\net5.0\Ordering.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\ref\Ordering.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\Ordering\obj\Debug\net5.0\Ordering.genruntimeconfig.cache

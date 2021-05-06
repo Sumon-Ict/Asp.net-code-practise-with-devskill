@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\bin\Debug\net5.0\Exam_Solution.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\bin\Debug\net5.0\Exam_Solution.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\bin\Debug\net5.0\Exam_Solution.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\bin\Debug\net5.0\Exam_Solution.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\bin\Debug\net5.0\Exam_Solution.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\bin\Debug\net5.0\ref\Exam_Solution.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\bin\Debug\net5.0\Exam_Solution.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\ref\Exam_Solution.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Exam_Solution\Exam_Solution\obj\Debug\net5.0\Exam_Solution.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\bin\Debug\net5.0\ConvertionExample.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\bin\Debug\net5.0\ConvertionExample.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\bin\Debug\net5.0\ConvertionExample.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\bin\Debug\net5.0\ConvertionExample.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\bin\Debug\net5.0\ConvertionExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\bin\Debug\net5.0\ref\ConvertionExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\bin\Debug\net5.0\ConvertionExample.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ref\ConvertionExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Link_101_Example\ConvertionExample\obj\Debug\net5.0\ConvertionExample.genruntimeconfig.cache

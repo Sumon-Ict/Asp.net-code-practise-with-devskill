@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\bin\Debug\net5.0\GenericAndDelegate.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\bin\Debug\net5.0\GenericAndDelegate.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\bin\Debug\net5.0\GenericAndDelegate.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\bin\Debug\net5.0\GenericAndDelegate.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\bin\Debug\net5.0\GenericAndDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\bin\Debug\net5.0\ref\GenericAndDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\bin\Debug\net5.0\GenericAndDelegate.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\ref\GenericAndDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenerisExample\GenericAndDelegate\obj\Debug\net5.0\GenericAndDelegate.genruntimeconfig.cache

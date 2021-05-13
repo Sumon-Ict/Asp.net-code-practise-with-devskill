@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\bin\Debug\net5.0\GenericDelegate.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\bin\Debug\net5.0\GenericDelegate.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\bin\Debug\net5.0\GenericDelegate.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\bin\Debug\net5.0\GenericDelegate.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\bin\Debug\net5.0\GenericDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\bin\Debug\net5.0\ref\GenericDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\bin\Debug\net5.0\GenericDelegate.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\ref\GenericDelegate.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericDelegate\GenericDelegate\obj\Debug\net5.0\GenericDelegate.genruntimeconfig.cache

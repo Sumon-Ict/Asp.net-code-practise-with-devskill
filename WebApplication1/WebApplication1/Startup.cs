@@ -1,3 +1,5 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +15,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebApplication1.Data;
 using WebApplication1.Models;
+using WebApplication1.Services;
 
 namespace WebApplication1
 {
@@ -34,6 +37,15 @@ namespace WebApplication1
 
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
+
+        public static ILifetimeScope AutofacContainer { get; set; }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new WebModule());
+
+        }
+
 
 
 
@@ -64,8 +76,12 @@ namespace WebApplication1
                 options.IdleTimeout = TimeSpan.FromSeconds(100);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
-            }); 
-           
+            });
+
+
+            
+           // services.AddTransient<IDatabaseService, SimpleDatabaseService>();
+            services.AddTransient<IDriverService, LocalDriver>();
 
 
 
@@ -76,6 +92,9 @@ namespace WebApplication1
             services.AddRazorPages();
             services.AddDatabaseDeveloperPageExceptionFilter();
 
+          //  services.AddTransient<IDriverService, LocalDriver>();
+
+
 
 
         }
@@ -83,6 +102,9 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            AutofacContainer = app.ApplicationServices.GetAutofacRoot();
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

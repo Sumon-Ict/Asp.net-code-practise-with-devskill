@@ -887,3 +887,5 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplicati
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\ref\WebApplication1.dll
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\Autofac.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+VptyhOtJac5JjsHJmS0W8rpwlR3/nGj7cUDOcIZmw7VfSiN+j0Nl1fUNoDmldUC1u8p+PPerOilvJYQYtWoCw==",
+  "dgSpecHash": "V6XV6lfL4/BuvGHqeqzIrcKrFFnGAu2Po44jE5DLrmwBnu2n1GCu4ShzUCfH3potPSPE3cQLzhMokjq9VJK/Mw==",
   "success": true,
   "projectFilePath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Md Sumon Mia\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\Md Sumon Mia\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Md Sumon Mia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Md Sumon Mia\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.5\\microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",
     "C:\\Users\\Md Sumon Mia\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.5\\microsoft.aspnetcore.cryptography.keyderivation.5.0.5.nupkg.sha512",

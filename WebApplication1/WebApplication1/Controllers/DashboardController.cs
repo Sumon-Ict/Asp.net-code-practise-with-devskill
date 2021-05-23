@@ -24,5 +24,15 @@ namespace WebApplication1.Controllers
             
             return View(model);
         }
+        public IActionResult Test()
+        {
+
+           // var Name = _databaseservice.Getname();
+
+            var model = new TestModel();
+
+            return View(model);
+        }
+
     }
 }

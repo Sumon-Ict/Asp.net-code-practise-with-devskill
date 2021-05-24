@@ -1,0 +1,43 @@
+﻿<!Doctype html>
+<html>
+<head>
+   
+    <title>this is title section</title>
+</head>
+<body>
+    <h1>this is another header section</h1>
+    <h4>1. @ViewBag.FirstValue</h4>
+    <h4>2. @ViewBag.SecondValue</h4>
+    <h4>3. @ViewBag.ThirdValue</h4>
+
+    <h4>1. @ViewData["name"]</h4>
+    <h4>2. @ViewData["home"]</h4>
+    <h4>3. @ViewData["id"]</h4>
+
+    <p>paragraph section</p>
+    <div style="text-align:center;color:green;background-color:yellow;margin:10px;padding:5px">
+        @RenderSection("detail", false);
+    </div>
+    <div style="text-align:left;color:red; background-color:yellow;padding:10px">
+        @RenderSection("Note", false);
+
+
+    </div>
+
+    @{
+        ViewBag.Title = "Computer Shop Management";
+    }
+
+    <div class="invisible">
+        <h2 style="color:chocolate">Welcome to Computer Shop Management</h2>
+    </div>
+    <div>
+        @{
+            for (int i = 0; i < 5; i++)
+            {
+                <h3 style="color:deeppink">Hello world @i</h3>
+            }
+        }
+    </div>
+</body>
+</html>

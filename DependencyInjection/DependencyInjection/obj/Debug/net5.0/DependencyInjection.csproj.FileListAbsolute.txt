@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\bin\Debug\net5.0\DependencyInjection.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\bin\Debug\net5.0\DependencyInjection.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\bin\Debug\net5.0\DependencyInjection.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\bin\Debug\net5.0\DependencyInjection.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\bin\Debug\net5.0\DependencyInjection.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\bin\Debug\net5.0\ref\DependencyInjection.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\bin\Debug\net5.0\DependencyInjection.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\ref\DependencyInjection.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\DependencyInjection\DependencyInjection\obj\Debug\net5.0\DependencyInjection.genruntimeconfig.cache

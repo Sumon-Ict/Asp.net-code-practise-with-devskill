@@ -4,8 +4,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Serilog.Events;
+using Serilog.Sinks.MSSqlServer;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Configuration;
+using System.Data;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -15,23 +20,37 @@ namespace Task_01
 {
     public class Program
     {
-        public static IConfiguration Configuration { get; } = new ConfigurationBuilder()
-        .SetBasePath(Directory.GetCurrentDirectory())
-        .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-        .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production"}.json", optional: true)
-        .Build();
+       
         public static void Main(string[] args)
         {
-            Log.Logger = new LoggerConfiguration()
-            .ReadFrom.Configuration(Configuration)
-            .CreateLogger();
 
-           
+            var configBuilder = new ConfigurationBuilder().AddJsonFile("appsettings.json", false)
+                .AddEnvironmentVariables()
+                .Build();
+
+            string connectionString = "Data Source=DESKTOP-PAVS32T\\SQLEXPRESS;Initial Catalog=LogwithDatabase;Persist Security Info=True;User ID=iu_sumon;Password=iusumon";
+
+
+            var columnOptions = new ColumnOptions
+            {
+                AdditionalColumns = new Collection<SqlColumn>
+               {
+                   new SqlColumn("UserName", SqlDbType.NVarChar)
+                 }
+            };
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+                .Enrich.FromLogContext()
+                .ReadFrom.Configuration(configBuilder)
+                .WriteTo.MSSqlServer(connectionString, sinkOptions: new MSSqlServerSinkOptions { TableName = "Log" }
+                , null, null, LogEventLevel.Information, null, columnOptions: columnOptions, null, null)
+                .CreateLogger();  
+
             try
             {
-                Log.Information("Application starting up");
-
-                BuildWebHost(args).Run();
+                Log.Information("Application Starting up");
+                CreateHostBuilder(args).Build().Run();
             }
             catch (Exception ex)
             {
@@ -41,6 +60,7 @@ namespace Task_01
             {
                 Log.CloseAndFlush();
             }
+
 
             Serilog.Debugging.SelfLog.Enable(msg =>
             {
@@ -52,11 +72,14 @@ namespace Task_01
 
         }
 
-        public static IWebHost BuildWebHost(string[] args) =>
-        WebHost.CreateDefaultBuilder(args)
-               .UseStartup<Startup>()
-               .UseConfiguration(Configuration)
-               .UseSerilog()
-               .Build();
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+             Host.CreateDefaultBuilder(args)
+                 .UseSerilog()
+                 .ConfigureWebHostDefaults(webBuilder =>
+                 {
+                     webBuilder.UseStartup<Startup>();
+                     webBuilder.UseUrls("http://*:80");
+                 });
+
     }
 }

@@ -1,0 +1,1 @@
+﻿select  [log] from SerilogExample;

@@ -891,3 +891,8 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplicati
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Shared\CustomPartialView\_FooterLinksPartial.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Dashboard\Test.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Information\Index.cshtml.g.cs

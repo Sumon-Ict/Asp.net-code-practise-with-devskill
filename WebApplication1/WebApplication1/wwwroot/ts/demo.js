@@ -60,8 +60,55 @@ var information = ["apple", 23, "mango", 90, 65];
 for (var i in information) {
     console.log(information[i]);
 }
+//array exmaple
 var address1 = ['sumon', 87, 'sujon', 87, 'kajol'];
 var tple2 = ["sumon", 123];
 var tplarray = [['sumon', 12], ['suvo', 90], ['kajol', 87]];
 console.log(tplarray[1][0]);
+tple2.push('imran');
+for (var i in tple2) {
+    console.log(tple2[i]);
+}
+//enum example 
+(function (students) {
+    students[students["titu"] = 12] = "titu";
+    students[students["rashid"] = 13] = "rashid";
+    students[students["imran"] = 14] = "imran";
+    students[students["sumi"] = 15] = "sumi";
+})(students || (students = {}));
+function gethome(home) {
+    if (home == "kusthia" || home == "meherpur")
+        return students.imran;
+}
+var district = gethome("kusthia");
+console.log(district);
+var address2;
+(function (address2) {
+    address2["name"] = "sohag";
+    address2["home"] = "bogura";
+    address2["careof"] = "siragul";
+    address2["village"] = "mulbari";
+    address2["nationality"] = "Bangladesh";
+})(address2 || (address2 = {}));
+console.log(address2.nationality);
+console.log(address2["village"]);
+//union uses code
+function displaytype(value) {
+    if (typeof (value) === 'string')
+        console.log("datatype is string");
+    else if (typeof (value) === 'number')
+        console.log('type is number');
+}
+displaytype(123);
+displaytype("sumon");
+//datatype any uses 
+var anyvalue = 'sumon';
+anyvalue = 234;
+anyvalue = false;
+var value = 34;
+console.log(value.toFixed());
+console.log(value.ifItExixts());
+var list2 = ['sumon', 89, false, 67.90];
+list2[2] = 'kajol';
+console.log(list2[3]);
 //# sourceMappingURL=demo.js.map

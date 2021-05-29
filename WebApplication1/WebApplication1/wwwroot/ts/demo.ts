@@ -94,6 +94,8 @@ for (let i in information)
 
 }
 
+
+//array exmaple
 let address1: Array<string | number> = ['sumon', 87, 'sujon', 87, 'kajol'];
 
 let tple2: [string, number] = ["sumon", 123];
@@ -101,6 +103,76 @@ let tple2: [string, number] = ["sumon", 123];
 let tplarray: [string, number][] = [['sumon', 12], ['suvo', 90], ['kajol', 87]];
 
 console.log(tplarray[1][0]);
+
+tple2.push('imran');
+
+for (let i in tple2) {
+    console.log(tple2[i]);
+
+}
+
+//enum example 
+
+enum students {
+    titu = 12,
+    rashid,
+    imran,
+    sumi
+
+}
+
+
+function gethome(home: string): students {
+    if (home == "kusthia" || home == "meherpur")
+
+        return students.imran;
+}
+
+let district: students = gethome("kusthia");
+
+console.log(district);
+
+
+enum address2 {
+    name = "sohag",
+    home = "bogura",
+    careof = 'siragul',
+    village = "mulbari",
+    nationality="Bangladesh"
+
+}
+
+console.log(address2.nationality);
+console.log(address2["village"]);
+
+//union uses code
+function displaytype(value: (string | Number)) {
+    if (typeof (value) === 'string')
+        console.log("datatype is string");
+    else if (typeof (value) === 'number')
+        console.log('type is number');
+}
+
+displaytype(123);
+displaytype("sumon");
+
+
+
+//datatype any uses 
+
+let anyvalue: any = 'sumon';
+anyvalue = 234;
+anyvalue = false;
+
+let value: any = 34;
+console.log(value.toFixed());
+
+console.log(value.ifItExixts());
+
+let list2: any[] = ['sumon', 89, false, 67.90];
+list2[2] = 'kajol';
+console.log(list2[3]);
+
 
 
 

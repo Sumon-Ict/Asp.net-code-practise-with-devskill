@@ -1,0 +1,3 @@
+﻿The asynchronously prepared breakfast took roughly 20 minutes, this is because some tasks were able to run concurrently.
+
+The preceding code works better. You start all the asynchronous tasks at once. You await each task only when you need the results. The preceding code may be similar to code in a web application that makes requests of different microservices, then combines the results into a single page. You'll make all the requests immediately, then await all those tasks and compose the web page.

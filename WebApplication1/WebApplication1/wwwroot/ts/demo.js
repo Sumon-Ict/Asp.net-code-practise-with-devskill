@@ -107,8 +107,24 @@ anyvalue = 234;
 anyvalue = false;
 var value = 34;
 console.log(value.toFixed());
-console.log(value.ifItExixts());
 var list2 = ['sumon', 89, false, 67.90];
 list2[2] = 'kajol';
 console.log(list2[3]);
+function warnUser() {
+    console.log('this is user waning message');
+}
+var usermessage = warnUser();
+console.log(usermessage);
+//create(123);  not ok cause value does not object or null type
+//type assertion
+var somevalue = 123;
+var gettype = somevalue;
+console.log(typeof (gettype));
+var somestring = "my name is sumon";
+var lenth = somestring.length;
+console.log(lenth);
+var str = "sumon";
+var gett = str;
+console.log(gett);
+console.log("test demo");
 //# sourceMappingURL=demo.js.map

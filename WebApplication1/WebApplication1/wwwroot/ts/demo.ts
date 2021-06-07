@@ -167,11 +167,62 @@ anyvalue = false;
 let value: any = 34;
 console.log(value.toFixed());
 
-console.log(value.ifItExixts());
 
 let list2: any[] = ['sumon', 89, false, 67.90];
 list2[2] = 'kajol';
 console.log(list2[3]);
+
+function warnUser(): void {
+    console.log('this is user waning message');
+
+}
+
+let usermessage: void = warnUser();
+
+console.log(usermessage);
+
+
+
+   //create(123);  not ok cause value does not object or null type
+
+
+//type assertion
+
+let somevalue: any = 123;
+let gettype = <number>somevalue;
+
+console.log(typeof(gettype));
+
+let somestring: any = "my name is sumon";
+
+let lenth: number = (<string>somestring).length;
+
+console.log(lenth);
+
+let str: any = "sumon";
+
+let gett = <string>str;
+console.log(gett);
+
+
+
+console.log("test demo");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

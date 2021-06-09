@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\bin\Debug\net5.0\Codeforce_1535A.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\bin\Debug\net5.0\Codeforce_1535A.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\bin\Debug\net5.0\Codeforce_1535A.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\bin\Debug\net5.0\Codeforce_1535A.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\bin\Debug\net5.0\Codeforce_1535A.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\bin\Debug\net5.0\ref\Codeforce_1535A.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\bin\Debug\net5.0\Codeforce_1535A.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\ref\Codeforce_1535A.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Codeforce_1535A\Codeforce_1535A\obj\Debug\net5.0\Codeforce_1535A.genruntimeconfig.cache

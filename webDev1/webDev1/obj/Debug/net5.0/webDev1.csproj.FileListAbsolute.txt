@@ -396,3 +396,4 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\webDev1\webDev1\obj\Debug\ne
 H:\Asp.net code\Asp.net-code-practise-with-devskill\webDev1\webDev1\obj\Debug\net5.0\Razor\Views\Home\Information.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\webDev1\webDev1\bin\Debug\net5.0\package-lock.json
 H:\Asp.net code\Asp.net-code-practise-with-devskill\webDev1\webDev1\bin\Debug\net5.0\package.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\webDev1\webDev1\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs

@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\bin\Debug\net5.0\GenericsExample.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\bin\Debug\net5.0\GenericsExample.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\bin\Debug\net5.0\GenericsExample.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\bin\Debug\net5.0\GenericsExample.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\bin\Debug\net5.0\GenericsExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\bin\Debug\net5.0\ref\GenericsExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\bin\Debug\net5.0\GenericsExample.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\ref\GenericsExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericsExample\GenericsExample\obj\Debug\net5.0\GenericsExample.genruntimeconfig.cache

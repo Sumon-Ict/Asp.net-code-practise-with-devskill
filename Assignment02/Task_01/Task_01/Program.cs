@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 
 namespace Task_01
@@ -9,21 +10,9 @@ namespace Task_01
         {
       
           using  SqlConnection connection = new SqlConnection();
+
             connection.ConnectionString= "Server=DESKTOP-PAVS32T\\SQLEXPRESS;Database=Aspdotnetb5;User Id=aspdotnetb5;Password=aspdotnetb5";
 
-            /* var query="insert into Students(StudentName,Home) values('sumon','Bogura')";
-
-             if(connection.State==System.Data.ConnectionState.Closed)
-             {
-                 connection.Open();
-
-             }
-
-            using SqlCommand command = new SqlCommand();
-             command.CommandText = query;
-             command.Connection = connection;
-
-             command.ExecuteNonQuery();*/
 
             if (connection.State == System.Data.ConnectionState.Closed)
             {
@@ -33,11 +22,42 @@ namespace Task_01
 
             MyORM<Students> orm = new MyORM<Students>(connection);
 
-            var obj = new Students();
-            obj.StudentName = "sujon";
-            obj.Home = "meherpur";
+            
 
-            orm.Insert(obj);
+            orm.Insert(new Students() { StudentName = "kajol", Home = "magura" });
+            orm.Insert(new Students() { StudentName = "mehedi", Home = "Thakurgaon" });
+            orm.Insert(new Students() { StudentName = "Kalam", Home = "Panchagarh" });
+            orm.Insert(new Students() { StudentName = "Imran", Home = "dhaka" });
+
+
+            var getinfo = orm.GetById(4);
+
+
+            Console.WriteLine(getinfo.Home);
+
+            Console.WriteLine(getinfo.StudentName);
+
+
+             orm.Delete(2);
+            orm.Update(new Students() { ID = 3, StudentName = "Asik", Home = "Rajshahi" });
+
+            List<Students> list = orm.GetAll();
+
+            foreach(var info in list)
+            {
+                Console.WriteLine($"studentname: {info.StudentName} , Home: {info.Home}");
+
+            }
+
+            orm.Delete(new Students());
+
+
+            
+
+
+
+
+            
 
 
 

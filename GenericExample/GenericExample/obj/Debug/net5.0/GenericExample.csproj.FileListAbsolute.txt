@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\bin\Debug\net5.0\GenericExample.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\bin\Debug\net5.0\GenericExample.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\bin\Debug\net5.0\GenericExample.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\bin\Debug\net5.0\GenericExample.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\bin\Debug\net5.0\GenericExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\bin\Debug\net5.0\ref\GenericExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\bin\Debug\net5.0\GenericExample.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\ref\GenericExample.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\GenericExample\GenericExample\obj\Debug\net5.0\GenericExample.genruntimeconfig.cache

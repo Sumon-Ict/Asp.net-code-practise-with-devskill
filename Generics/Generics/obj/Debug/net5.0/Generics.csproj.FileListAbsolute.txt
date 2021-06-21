@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\bin\Debug\net5.0\Generics.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\bin\Debug\net5.0\Generics.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\bin\Debug\net5.0\Generics.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\bin\Debug\net5.0\Generics.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\bin\Debug\net5.0\Generics.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\bin\Debug\net5.0\ref\Generics.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\bin\Debug\net5.0\Generics.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\ref\Generics.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Generics\Generics\obj\Debug\net5.0\Generics.genruntimeconfig.cache

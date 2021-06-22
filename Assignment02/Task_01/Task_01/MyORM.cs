@@ -37,23 +37,23 @@ namespace Task_01
 
             var sqlValue = new StringBuilder();
 
-            var fields = item.GetType().GetProperties();
+            var properties = item.GetType().GetProperties();
 
-            var sqlParameters = new SqlParameter[fields.Length - 1];
+            var sqlParameters = new SqlParameter[properties.Length - 1];
 
-            for (int i = 1; i < fields.Length; i++)
+            for (int i = 1; i < properties.Length; i++)
             {
-                if (i == fields.Length - 1)
+                if (i == properties.Length - 1)
                 {
-                    sql.Append(fields[i].Name + ") VALUES(");
-                    sqlValue.Append("@" + fields[i].Name + ")");
+                    sql.Append(properties[i].Name + ") VALUES(");
+                    sqlValue.Append("@" + properties[i].Name + ")");
                 }
                 else
                 {
-                    sql.Append(fields[i].Name + ",");
-                    sqlValue.Append("@" + fields[i].Name + ",");
+                    sql.Append(properties[i].Name + ",");
+                    sqlValue.Append("@" + properties[i].Name + ",");
                 }
-                sqlParameters[i - 1] = new SqlParameter("@" + fields[i].Name, fields[i].GetValue(item));
+                sqlParameters[i - 1] = new SqlParameter("@" + properties[i].Name, properties[i].GetValue(item));
             }
             sql.Append(sqlValue.ToString());
 
@@ -70,34 +70,34 @@ namespace Task_01
         public void Update(T item)
         {
 
-            var type = typeof(T);
+         var type = typeof(T);
 
          
         var sql = new StringBuilder("update ");
 
         sql.AppendFormat("{0} set ", type.Name);
 
-        var  fields = item.GetType().GetProperties();
+        var  properties = item.GetType().GetProperties();
 
-        var sqlParameters = new SqlParameter[fields.Length];
+        var sqlParameters = new SqlParameter[properties.Length];
                         
-          for(int i=1;i<fields.Length;i++)
+          for(int i=1;i<properties.Length;i++)
             {
-                if(i==fields.Length-1)
+                if(i==properties.Length-1)
                 { 
-                    sql.AppendFormat("{0}=@{0} ", fields[i].Name);
+                    sql.AppendFormat("{0}=@{0} ", properties[i].Name);
                 }
                 else
                 {
-                    sql.AppendFormat("{0}=@{0},", fields[i].Name);
+                    sql.AppendFormat("{0}=@{0},", properties[i].Name);
                 }
 
-              sqlParameters[i - 1] = new SqlParameter("@" + fields[i].Name, fields[i].GetValue(item));
+              sqlParameters[i - 1] = new SqlParameter("@" + properties[i].Name, properties[i].GetValue(item));
             }
 
-        sql.AppendFormat("WHERE {0}=@{0}", fields[0].Name);
+        sql.AppendFormat("WHERE {0}=@{0}", properties[0].Name);
 
-         sqlParameters[fields.Length - 1] = new SqlParameter("@" + fields[0].Name, fields[0].GetValue(item));
+         sqlParameters[properties.Length - 1] = new SqlParameter("@" + properties[0].Name, properties[0].GetValue(item));
 
          var query = sql.ToString();
 
@@ -148,19 +148,19 @@ namespace Task_01
 
             var type = typeof(T);
 
-            PropertyInfo[] fields = type.GetProperties();
+            PropertyInfo[] properties = type.GetProperties();
 
             DataRow dr = dt.Rows[0];
 
             int count = dt.Columns.Count;
 
-            foreach (var field in fields)
+            foreach (var property in properties)
             {
                 for (int i = 0; i < count; i++)
                 {
-                    if (field.Name.ToUpper() == dt.Columns[i].ColumnName.ToUpper())
+                    if (property.Name.ToUpper() == dt.Columns[i].ColumnName.ToUpper())
                     {
-                        field.SetValue(t, dr[i], null);
+                        property.SetValue(t, dr[i], null);
                         break;
                     }
                 }
@@ -172,8 +172,11 @@ namespace Task_01
             var type = typeof(T);
 
             var sql = new StringBuilder("select * from ");
+
             sql.Append(type.Name);
+
             sql.Append(" where id=");
+
             sql.Append(id);
 
             var query = sql.ToString();

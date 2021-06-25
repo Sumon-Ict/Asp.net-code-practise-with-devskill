@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.information = "my name is sumon";
+    ViewData["Title"] = "title pages ";
+    var value = 12;
+
+            }
+
+<h1>@ViewData["Title"]</h1>
+<p>@ViewBag.information</p>
+
+@{ 
+    var name = "sujon";
+
+    <p> name is @name</p>
+}
+@{ 
+    for (var i = 1; i < 5; i++)
+    {   <p>i=@i</p>}
+}
+@for(var j=0;j<8;j++)
+            {
+                <text> j=@j</text>
+                 <br/>
+            }
+@if(value>90)
+            {
+                <p>value is greater than 90</p>
+}
+else if(value<10)
+            {
+                <p>value is less than 10</p>
+            }
+else
+            {
+                <p>value is equal to @value</p>
+            }
+
+

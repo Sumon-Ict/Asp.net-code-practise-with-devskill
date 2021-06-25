@@ -355,3 +355,4 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication-02\WebApplica
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication-02\WebApplication-02\obj\Debug\net5.0\ref\WebApplication-02.dll
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication-02\WebApplication-02\obj\Debug\net5.0\WebApplication-02.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication-02\WebApplication-02\obj\Debug\net5.0\WebApplication-02.genruntimeconfig.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication-02\WebApplication-02\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs

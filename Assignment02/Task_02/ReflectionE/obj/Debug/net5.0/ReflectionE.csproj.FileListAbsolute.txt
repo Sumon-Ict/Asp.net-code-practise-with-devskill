@@ -1,0 +1,16 @@
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\bin\Debug\net5.0\ReflectionE.exe
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\bin\Debug\net5.0\ReflectionE.deps.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\bin\Debug\net5.0\ReflectionE.runtimeconfig.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\bin\Debug\net5.0\ReflectionE.runtimeconfig.dev.json
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\bin\Debug\net5.0\ReflectionE.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\bin\Debug\net5.0\ref\ReflectionE.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\bin\Debug\net5.0\ReflectionE.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.csprojAssemblyReference.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.AssemblyInfoInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.AssemblyInfo.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.csproj.CoreCompileInputs.cache
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ref\ReflectionE.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\Assignment02\Task_02\ReflectionE\obj\Debug\net5.0\ReflectionE.genruntimeconfig.cache

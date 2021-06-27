@@ -1,13 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FirstDemo.Training.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FirstDemo.Data
+namespace FirstDemo.Training.Contexts
 {
-   public class TrainingContext:DbContext
+   public class TrainingContext : DbContext
     {
 
         private readonly string _connectionString;
@@ -34,6 +35,9 @@ namespace FirstDemo.Data
         public DbSet<Course>Courses { get; set; }
 
         public DbSet<Student> Students { get; set; }
+
+        public DbSet<Topic> Topics { get; set; }
+
 
 
 

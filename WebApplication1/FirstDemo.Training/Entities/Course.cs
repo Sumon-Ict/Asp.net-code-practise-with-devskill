@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace FirstDemo.Data
+namespace FirstDemo.Training.Entities
 {
     public class Course
     {
@@ -8,6 +9,9 @@ namespace FirstDemo.Data
         public string Title { get; set; }
         public int Fees { get; set; }
         public DateTime StartDate { get; set; }
+        public List<Topic> Topics { get; set; }
+
+
 
     }
 }

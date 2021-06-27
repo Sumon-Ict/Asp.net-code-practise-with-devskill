@@ -35,6 +35,7 @@
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.1.0",
           "FirstDemo.Data": "1.0.0",
+          "FirstDemo.Training": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.5",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
           "Microsoft.AspNetCore.Identity.UI": "5.0.5",
@@ -2226,6 +2227,18 @@
         },
         "compile": {
           "FirstDemo.Data.dll": {}
+        }
+      },
+      "FirstDemo.Training/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+        },
+        "runtime": {
+          "FirstDemo.Training.dll": {}
+        },
+        "compile": {
+          "FirstDemo.Training.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4978,6 +4991,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "FirstDemo.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirstDemo.Training/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

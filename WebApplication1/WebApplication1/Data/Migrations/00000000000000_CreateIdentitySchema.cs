@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
+using FirstDemo.Training;
 
 namespace WebApplication1.Data.Migrations
 {

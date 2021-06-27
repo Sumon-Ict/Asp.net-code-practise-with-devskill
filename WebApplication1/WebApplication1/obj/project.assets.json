@@ -2466,6 +2466,20 @@
         "runtime": {
           "bin/placeholder/FirstDemo.Data.dll": {}
         }
+      },
+      "FirstDemo.Training/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+        },
+        "compile": {
+          "bin/placeholder/FirstDemo.Training.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstDemo.Training.dll": {}
+        }
       }
     }
   },
@@ -8360,12 +8374,18 @@
       "type": "project",
       "path": "../FirstDemo.Data/FirstDemo.Data.csproj",
       "msbuildProject": "../FirstDemo.Data/FirstDemo.Data.csproj"
+    },
+    "FirstDemo.Training/1.0.0": {
+      "type": "project",
+      "path": "../FirstDemo.Training/FirstDemo.Training.csproj",
+      "msbuildProject": "../FirstDemo.Training/FirstDemo.Training.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Autofac.Extensions.DependencyInjection >= 7.1.0",
       "FirstDemo.Data >= 1.0.0",
+      "FirstDemo.Training >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.5",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.5",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.5",
@@ -8407,6 +8427,9 @@
           "projectReferences": {
             "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj": {
               "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj"
+            },
+            "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Training\\FirstDemo.Training.csproj": {
+              "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Training\\FirstDemo.Training.csproj"
             }
           }
         }

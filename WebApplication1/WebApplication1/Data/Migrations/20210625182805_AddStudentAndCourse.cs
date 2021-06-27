@@ -1,8 +1,11 @@
 ﻿using System;
+using FirstDemo.Training;
 using Microsoft.EntityFrameworkCore.Migrations;
+
 
 namespace WebApplication1.Data.Migrations
 {
+   
     public partial class AddStudentAndCourse : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

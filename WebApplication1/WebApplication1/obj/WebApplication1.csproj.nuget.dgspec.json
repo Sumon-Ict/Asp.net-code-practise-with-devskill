@@ -91,7 +91,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj": {
+                "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

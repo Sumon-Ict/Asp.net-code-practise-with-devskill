@@ -2472,6 +2472,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "FirstDemo.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
         },
         "compile": {

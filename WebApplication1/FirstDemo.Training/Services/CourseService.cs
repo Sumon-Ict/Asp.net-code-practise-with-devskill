@@ -1,5 +1,6 @@
 ﻿using FirstDemo.Training.BusinessObjects;
 using FirstDemo.Training.Contexts;
+using FirstDemo.Training.UnitOfWorks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,17 +12,17 @@ namespace FirstDemo.Training.Services
     public class CourseService : ICourseService
     {
 
-        private readonly TrainingContext _trainingContext;
+        private readonly ITrainingUnitOfWork _trainingUnitOfWork;
 
-        public CourseService(TrainingContext trainingContext)
+        public CourseService(ITrainingUnitOfWork trainingUnitOfWork)
         {
-            _trainingContext = trainingContext;
+            _trainingUnitOfWork = trainingUnitOfWork;
 
         }
 
         public IList<Course> GetAllCourse()
         {
-            var courseEntities = _trainingContext.Courses.ToList();
+            var courseEntities = _trainingUnitOfWork.Courses.GetAll();
 
             var courses = new List<Course>();
 
@@ -38,6 +39,18 @@ namespace FirstDemo.Training.Services
             }
             return courses;
 
+        }
+        public void CreateCourse(Course course)
+        {
+            _trainingUnitOfWork.Courses.Add(
+                new Entities.Course
+                {
+                    Title = course.Title,
+                    Fees = course.Fees,
+                    StartDate = course.StartDate
+                }
+                );
+            _trainingUnitOfWork.Save();
         }
 
     }

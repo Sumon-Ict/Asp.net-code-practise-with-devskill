@@ -1506,6 +1506,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "FirstDemo.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+        },
+        "compile": {
+          "bin/placeholder/FirstDemo.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstDemo.Data.dll": {}
+        }
       }
     }
   },
@@ -5754,11 +5768,17 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "FirstDemo.Data/1.0.0": {
+      "type": "project",
+      "path": "../FirstDemo.Data/FirstDemo.Data.csproj",
+      "msbuildProject": "../FirstDemo.Data/FirstDemo.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Autofac.Extensions.DependencyInjection >= 7.1.0",
+      "FirstDemo.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5"
     ]
   },
@@ -5788,7 +5808,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj": {
+              "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

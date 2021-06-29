@@ -11,6 +11,7 @@ namespace FirstDemo.Training.BusinessObjects
         public string Title { get; set; }
 
         public int Fees { get; set; }
+        public DateTime StartDate { get; set; }
 
     }
 }

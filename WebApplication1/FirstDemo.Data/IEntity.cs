@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace FirstDemo.Data
 {
-  public  interface IUnitOfWork:IDisposable
+    public interface IEntity<T>
     {
-       
-        void Save();
-        
-
+        T Id { get; set; }
     }
 }

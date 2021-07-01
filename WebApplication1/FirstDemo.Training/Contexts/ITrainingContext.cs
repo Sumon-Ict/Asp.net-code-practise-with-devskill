@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FirstDemo.Data
+namespace FirstDemo.Training.Contexts
 {
-  public  interface IUnitOfWork:IDisposable
+   public interface ITrainingContext
     {
-       
-        void Save();
-        
-
     }
 }

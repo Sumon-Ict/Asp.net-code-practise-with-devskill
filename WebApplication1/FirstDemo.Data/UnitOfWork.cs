@@ -9,15 +9,11 @@ namespace FirstDemo.Data
 {
   public  class UnitOfWork : IUnitOfWork
     {
-        private DbContext _context;
-        public UnitOfWork(DbContext context)
-        {
-            _context = context;
+        protected readonly DbContext _dbContext;
 
-        }
-        public void Save()
-        {
-            _context.SaveChanges();
-        }
+        public UnitOfWork(DbContext dbContext) => _dbContext = dbContext;
+
+        public void Dispose() => _dbContext?.Dispose();
+        public void Save() => _dbContext?.SaveChanges();
     }
 }

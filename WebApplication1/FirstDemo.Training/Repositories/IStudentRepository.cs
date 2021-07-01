@@ -1,7 +1,6 @@
 ﻿using FirstDemo.Data;
 using FirstDemo.Training.Contexts;
 using FirstDemo.Training.Entities;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +9,8 @@ using System.Threading.Tasks;
 
 namespace FirstDemo.Training.Repositories
 {
-    public class StudentRepository : Repository<Student, int, TrainingContext>,IStudentRepository
-
+  public interface IStudentRepository : IRepository<Student,int, TrainingContext>
     {
-       public StudentRepository(TrainingContext context)
-            : base(context)
-        {
 
-        }
     }
 }

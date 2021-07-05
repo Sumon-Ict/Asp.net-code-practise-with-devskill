@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace FirstDemo.Training.Repositories
 {
-    class CourseRepository : Repository<Course, int, TrainingContext>,ICourseRepository
+  public class CourseRepository : Repository<Course, int>,ICourseRepository
 
     {
-       public CourseRepository(TrainingContext context)
-            : base(context)
+       public CourseRepository(ITrainingContext context)
+            : base((DbContext)context)
         {
 
         }

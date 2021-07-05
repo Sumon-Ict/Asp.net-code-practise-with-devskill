@@ -9,8 +9,10 @@ using System.Threading.Tasks;
 
 namespace FirstDemo.Training.Repositories
 {
-  public interface IStudentRepository : IRepository<Student,int, TrainingContext>
+
+  public interface IStudentRepository : IRepository<Student,int>
     {
+
 
     }
 }

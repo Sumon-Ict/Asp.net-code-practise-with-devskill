@@ -9,15 +9,15 @@ using System.Linq.Dynamic.Core;
 
 namespace FirstDemo.Data
 {
-    public abstract class Repository<TEntity, TKey, TContext>
-        : IRepository<TEntity, TKey, TContext>
+    public abstract class Repository<TEntity, TKey>
+        : IRepository<TEntity, TKey>
         where TEntity : class, IEntity<TKey>
-        where TContext : DbContext
+        
     {
-        protected TContext _dbContext;
+        protected DbContext _dbContext;
         protected DbSet<TEntity> _dbSet;
 
-        public Repository(TContext context)
+        public Repository(DbContext context)
         {
             _dbContext = context;
             _dbSet = _dbContext.Set<TEntity>();
@@ -31,8 +31,10 @@ namespace FirstDemo.Data
         public virtual void Remove(TKey id)
         {
             var entityToDelete = _dbSet.Find(id);
+            
             Remove(entityToDelete);
         }
+
 
         public virtual void Remove(TEntity entityToDelete)
         {
@@ -42,6 +44,9 @@ namespace FirstDemo.Data
             }
             _dbSet.Remove(entityToDelete);
         }
+      
+
+       
 
         public virtual void Remove(Expression<Func<TEntity, bool>> filter)
         {
@@ -56,6 +61,7 @@ namespace FirstDemo.Data
             }
             _dbContext.Entry(entityToUpdate).State = EntityState.Modified;
         }
+  
 
         public virtual int GetCount(Expression<Func<TEntity, bool>> filter = null)
         {
@@ -88,6 +94,8 @@ namespace FirstDemo.Data
 
             return query.ToList();
         }
+
+      
 
         public virtual IList<TEntity> GetAll()
         {

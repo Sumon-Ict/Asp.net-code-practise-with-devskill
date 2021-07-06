@@ -5,17 +5,12 @@ using FirstDemo.Training;
 using FirstDemo.Training.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using WebApplication1.Data;
 using WebApplication1.Models;
 using WebApplication1.Services;
@@ -100,8 +95,8 @@ namespace WebApplication1
             });
 
 
-            
-           // services.AddTransient<IDatabaseService, SimpleDatabaseService>();
+
+            // services.AddTransient<IDatabaseService, SimpleDatabaseService>();
             services.AddTransient<IDriverService, LocalDriver>();
 
 
@@ -113,7 +108,7 @@ namespace WebApplication1
             services.AddRazorPages();
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-          //  services.AddTransient<IDriverService, LocalDriver>();
+            //  services.AddTransient<IDriverService, LocalDriver>();
 
 
 

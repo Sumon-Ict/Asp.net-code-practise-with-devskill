@@ -10,6 +10,7 @@ namespace FirstDemo.Training.Services
     public interface ICourseService
     {
         IList<Course> GetAllCourse();
+        void EnrollStudent(Course course, Student student);
 
     }
 }

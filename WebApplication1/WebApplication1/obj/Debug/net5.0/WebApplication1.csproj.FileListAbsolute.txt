@@ -1360,3 +1360,6 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplicati
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\FirstDemo.Training.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Course\Index.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Course\Enroll.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Course\Create.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_AdminMenuPartial.cshtml.g.cs

@@ -18,5 +18,28 @@ namespace WebApplication1.Areas.Admin.Controllers
 
             return View(model);
         }
+
+        public IActionResult Enroll()
+        {
+            var model =new  EnrollStudentModel();
+            return View(model);
+
+
+        }
+        [HttpPost]
+        public IActionResult Enroll(EnrollStudentModel model)
+        {
+            if(ModelState.IsValid)
+            {
+
+            }
+            return RedirectToAction(nameof(Index));
+
+        }
+        public IActionResult Create()
+        {
+            return View();
+
+        }
     }
 }

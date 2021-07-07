@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FirstDemo.Training.Exceptions;
+using FirstDemo.Common.Utilities;
 
 namespace FirstDemo.Training.Services
 {
@@ -13,10 +15,12 @@ namespace FirstDemo.Training.Services
     {
 
         private readonly ITrainingUnitOfWork _trainingUnitOfWork;
+        private readonly IDateTimeUtility _dateTimeUtility;
 
-        public CourseService(ITrainingUnitOfWork trainingUnitOfWork)
+        public CourseService(ITrainingUnitOfWork trainingUnitOfWork,IDateTimeUtility dateTimeUtility)
         {
             _trainingUnitOfWork = trainingUnitOfWork;
+            _dateTimeUtility = dateTimeUtility;
 
         }
 
@@ -42,15 +46,33 @@ namespace FirstDemo.Training.Services
         }
         public void CreateCourse(Course course)
         {
-            _trainingUnitOfWork.Courses.Add(
-                new Entities.Course
-                {
-                    Title = course.Title,
-                    Fees = course.Fees,
-                    StartDate = course.StartDate
-                }
-                );
-            _trainingUnitOfWork.Save();
+            if (course == null)
+                throw new InvalidParameterException("course was not provided");
+            if(IsTitleAlreadyUsed(course.Title))
+                
+             throw new DuplicateTitleException(" Course  Title already exits");
+
+            if (!IsValidStartDate(course.StartDate))
+                throw new InvalidOperationException("start date should be atleast 30 days ahead");
+            
+           
+            if (!IsTitleAlreadyUsed(course.Title))
+            {
+
+                _trainingUnitOfWork.Courses.Add(
+                    new Entities.Course
+                    {
+                        Title = course.Title,
+                        Fees = course.Fees,
+                        StartDate = course.StartDate
+                    }
+                    );
+                _trainingUnitOfWork.Save();
+            }
+            
+               
+
+
         }
         public void EnrollStudent(Course course,Student student)
         {
@@ -77,6 +99,13 @@ namespace FirstDemo.Training.Services
             _trainingUnitOfWork.Save();    
 
         }
+
+        private  bool IsTitleAlreadyUsed(string title) =>
+            _trainingUnitOfWork.Courses.GetCount(x => x.Title == title) > 0;
+
+        private bool IsValidStartDate(DateTime startDate) =>
+           startDate.Subtract(_dateTimeUtility.Now).TotalDays > 30;
+
 
     }
 }

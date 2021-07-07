@@ -34,6 +34,7 @@
       "WebApplication1/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "FirstDemo.Common": "1.0.0",
           "FirstDemo.Data": "1.0.0",
           "FirstDemo.Training": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.5",
@@ -2228,6 +2229,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "FirstDemo.Common/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0"
+        },
+        "runtime": {
+          "FirstDemo.Common.dll": {}
+        },
+        "compile": {
+          "FirstDemo.Common.dll": {}
+        }
+      },
       "FirstDemo.Data/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.1.0",
@@ -2244,6 +2256,7 @@
       "FirstDemo.Training/1.0.0": {
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "FirstDemo.Common": "1.0.0",
           "FirstDemo.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
         },
@@ -5009,6 +5022,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "FirstDemo.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "FirstDemo.Data/1.0.0": {
       "type": "project",

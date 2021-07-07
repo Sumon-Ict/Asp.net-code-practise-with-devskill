@@ -13,3 +13,5 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\FirstDemo.Tr
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\FirstDemo.Training\bin\Debug\net5.0\FirstDemo.Data.dll
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\FirstDemo.Training\bin\Debug\net5.0\FirstDemo.Data.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\FirstDemo.Training\obj\Debug\net5.0\FirstDemo.Training.csproj.CopyComplete
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\FirstDemo.Training\bin\Debug\net5.0\FirstDemo.Common.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\FirstDemo.Training\bin\Debug\net5.0\FirstDemo.Common.pdb

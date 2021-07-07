@@ -2462,6 +2462,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "FirstDemo.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0"
+        },
+        "compile": {
+          "bin/placeholder/FirstDemo.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstDemo.Common.dll": {}
+        }
+      },
       "FirstDemo.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2482,6 +2495,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "FirstDemo.Common": "1.0.0",
           "FirstDemo.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
         },
@@ -8417,6 +8431,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "FirstDemo.Common/1.0.0": {
+      "type": "project",
+      "path": "../FirstDemo.Common/FirstDemo.Common.csproj",
+      "msbuildProject": "../FirstDemo.Common/FirstDemo.Common.csproj"
+    },
     "FirstDemo.Data/1.0.0": {
       "type": "project",
       "path": "../FirstDemo.Data/FirstDemo.Data.csproj",
@@ -8431,6 +8450,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Autofac.Extensions.DependencyInjection >= 7.1.0",
+      "FirstDemo.Common >= 1.0.0",
       "FirstDemo.Data >= 1.0.0",
       "FirstDemo.Training >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.5",
@@ -8472,6 +8492,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Common\\FirstDemo.Common.csproj": {
+              "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Common\\FirstDemo.Common.csproj"
+            },
             "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj": {
               "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\WebApplication1\\FirstDemo.Data\\FirstDemo.Data.csproj"
             },

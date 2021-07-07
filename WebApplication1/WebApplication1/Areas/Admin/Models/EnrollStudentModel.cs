@@ -40,6 +40,7 @@ namespace WebApplication1.Areas.Admin.Models
             _courseService.EnrollStudent(selectedCourse, student);
 
         }
-      
+
+       
     }
 }

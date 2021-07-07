@@ -14,6 +14,7 @@ using System;
 using WebApplication1.Data;
 using WebApplication1.Models;
 using WebApplication1.Services;
+using FirstDemo.Common;
 
 namespace WebApplication1
 {
@@ -44,6 +45,9 @@ namespace WebApplication1
 
             builder.RegisterModule(new TrainingModule(connectionInfo.connectionString,
                 connectionInfo.migrationAssemblyName));
+            builder.RegisterModule(new CommonModule());
+
+            
             builder.RegisterModule(new WebModule());
 
         }

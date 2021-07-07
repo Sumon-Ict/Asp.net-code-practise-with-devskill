@@ -1554,6 +1554,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FirstDemo.Common\FirstDemo.Common.csproj" />
     <ProjectReference Include="..\FirstDemo.Data\FirstDemo.Data.csproj" />
     <ProjectReference Include="..\FirstDemo.Training\FirstDemo.Training.csproj" />
   </ItemGroup>

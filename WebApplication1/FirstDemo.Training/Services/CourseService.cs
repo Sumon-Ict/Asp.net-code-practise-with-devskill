@@ -111,7 +111,7 @@ namespace FirstDemo.Training.Services
             string searchText, string sortText)
         {
             var courseData = _trainingUnitOfWork.Courses.GetDynamic(
-                string.IsNullOrEmpty(searchText)?null:x => x.Title == searchText, sortText,
+                string.IsNullOrEmpty(searchText)? null : x => x.Title.Contains(searchText), sortText,
                 string.Empty, pageIndex, pageSize);
 
             var resultData = (from course in courseData.data

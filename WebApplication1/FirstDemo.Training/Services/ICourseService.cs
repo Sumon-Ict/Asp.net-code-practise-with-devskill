@@ -11,6 +11,8 @@ namespace FirstDemo.Training.Services
     {
         IList<Course> GetAllCourse();
         void EnrollStudent(Course course, Student student);
-        void CreateCourse(Course course);
+        void CreateCourse(Course course);  
+        (IList<Course> records, int total, int totalDisplay) GetCourses(int pageIndex, int pageSize,
+           string searchText, string sortText);
     }
 }

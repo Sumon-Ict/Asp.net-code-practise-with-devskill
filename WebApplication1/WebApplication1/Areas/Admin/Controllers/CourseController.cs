@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApplication1.Areas.Admin.Models;
+using WebApplication1.Models;
 
 namespace WebApplication1.Areas.Admin.Controllers
 {
@@ -25,6 +26,16 @@ namespace WebApplication1.Areas.Admin.Controllers
             model.LoadModelData();
 
             return View(model);
+        }
+        public JsonResult GetCourseData()
+        {
+            var dataTablesModel = new DataTablesAjaxRequestModel(Request);
+
+            var model = new CourseListModel();
+            var data = model.GetCourses(dataTablesModel);
+
+            return Json(data);
+
         }
 
         public IActionResult Enroll()

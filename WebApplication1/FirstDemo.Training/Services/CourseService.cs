@@ -107,6 +107,25 @@ namespace FirstDemo.Training.Services
         private bool IsValidStartDate(DateTime startDate) =>
            startDate.Subtract(_dateTimeUtility.Now).TotalDays > 30;
 
+        public (IList<Course> records, int total, int totalDisplay) GetCourses(int pageIndex, int pageSize,
+            string searchText, string sortText)
+        {
+            var courseData = _trainingUnitOfWork.Courses.GetDynamic(
+                string.IsNullOrEmpty(searchText)?null:x => x.Title == searchText, sortText,
+                string.Empty, pageIndex, pageSize);
 
+            var resultData = (from course in courseData.data
+                              select new Course
+                              {
+                                  Id = course.Id,
+                                  Title = course.Title,
+                                  Fees = course.Fees,
+                                  StartDate = course.StartDate
+                              }).ToList();
+
+            return (resultData, courseData.total, courseData.totalDisplay);
+
+                
+        }
     }
 }

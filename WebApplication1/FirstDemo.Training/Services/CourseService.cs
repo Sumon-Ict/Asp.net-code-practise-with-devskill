@@ -13,7 +13,6 @@ namespace FirstDemo.Training.Services
 {
     public class CourseService : ICourseService
     {
-
         private readonly ITrainingUnitOfWork _trainingUnitOfWork;
         private readonly IDateTimeUtility _dateTimeUtility;
 
@@ -34,8 +33,10 @@ namespace FirstDemo.Training.Services
             {
                 var course = new Course()
                 {
+                    Id=entity.Id,
                     Title = entity.Title,
-                    Fees = entity.Fees
+                    Fees = entity.Fees,
+                    StartDate=entity.StartDate
 
                 };
                 courses.Add(course);

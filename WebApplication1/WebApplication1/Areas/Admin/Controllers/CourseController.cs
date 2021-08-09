@@ -23,7 +23,6 @@ namespace WebApplication1.Areas.Admin.Controllers
         {
 
             var model = new CourseListModel();
-            model.LoadModelData();
 
             return View(model);
         }
@@ -80,5 +79,32 @@ namespace WebApplication1.Areas.Admin.Controllers
             }
             return View(model);
         }
+        public IActionResult Edit(int id)
+        {
+            var model = new EditCourseModel();
+            model.LoadModelData(id);
+            return View();
+
+        }
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult Edit(EditCourseModel model)
+        {
+            if(ModelState.IsValid)
+            {
+                model.Update();
+            }
+           
+            return View(model);
+
+        }
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var model = new CourseListModel();
+            model.Delete(id);
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
+ 

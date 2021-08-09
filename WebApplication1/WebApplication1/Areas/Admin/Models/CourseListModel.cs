@@ -12,8 +12,7 @@ namespace WebApplication1.Areas.Admin.Models
     public class CourseListModel
     {
         private ICourseService _courseService;
-        public IList<Course> Courses { get; set; }
-
+      
 
         public CourseListModel()
         {
@@ -23,11 +22,7 @@ namespace WebApplication1.Areas.Admin.Models
         {
             _courseService = courseService;
         }
-        public void LoadModelData()
-        {
-            Courses = _courseService.GetAllCourse();
-
-        }
+       
 
         internal object GetCourses(DataTablesAjaxRequestModel tableModel)
         {
@@ -51,6 +46,12 @@ namespace WebApplication1.Areas.Admin.Models
                         }
                     ).ToArray()
             };
+        }
+
+        internal void Delete(int id)
+        {
+            _courseService.DeleteCourse(id);
+
         }
     }
 }

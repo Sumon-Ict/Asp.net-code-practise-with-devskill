@@ -6,26 +6,34 @@ using System.Threading.Tasks;
 using Autofac;
 using FirstDemo.Training.BusinessObjects;
 using WebApplication1.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace WebApplication1.Areas.Admin.Models
 {
     public class CourseListModel
     {
         private ICourseService _courseService;
+
+        private IHttpContextAccessor _httpContextAccessor;
+
       
 
         public CourseListModel()
         {
             _courseService = Startup.AutofacContainer.Resolve<ICourseService>();
+            _httpContextAccessor = Startup.AutofacContainer.Resolve<IHttpContextAccessor>();
         }
-        public CourseListModel(ICourseService courseService)
+        public CourseListModel(ICourseService courseService,IHttpContextAccessor httpContextAccessor)
         {
             _courseService = courseService;
+            _httpContextAccessor = httpContextAccessor;
         }
        
 
         internal object GetCourses(DataTablesAjaxRequestModel tableModel)
         {
+     
+
             var data = _courseService.GetCourses(
                 tableModel.PageIndex,
                 tableModel.PageSize,

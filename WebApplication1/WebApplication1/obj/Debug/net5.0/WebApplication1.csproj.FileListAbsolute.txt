@@ -1367,3 +1367,9 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplicati
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\FirstDemo.Common.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Course\Edit.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DeletePopupPartial.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs

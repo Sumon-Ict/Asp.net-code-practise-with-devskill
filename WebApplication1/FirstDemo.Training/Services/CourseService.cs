@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FirstDemo.Training.Exceptions;
 using FirstDemo.Common.Utilities;
+using AutoMapper;
 
 namespace FirstDemo.Training.Services
 {
@@ -15,11 +16,14 @@ namespace FirstDemo.Training.Services
     {
         private readonly ITrainingUnitOfWork _trainingUnitOfWork;
         private readonly IDateTimeUtility _dateTimeUtility;
+        private readonly IMapper _mapper;
 
-        public CourseService(ITrainingUnitOfWork trainingUnitOfWork,IDateTimeUtility dateTimeUtility)
+        public CourseService(ITrainingUnitOfWork trainingUnitOfWork,IDateTimeUtility dateTimeUtility,
+            IMapper mapper)
         {
             _trainingUnitOfWork = trainingUnitOfWork;
             _dateTimeUtility = dateTimeUtility;
+            _mapper = mapper;
 
         }
 
@@ -31,14 +35,15 @@ namespace FirstDemo.Training.Services
 
             foreach(var entity  in courseEntities)
             {
-                var course = new Course()
-                {
-                    Id=entity.Id,
-                    Title = entity.Title,
-                    Fees = entity.Fees,
-                    StartDate=entity.StartDate
+              var course= _mapper.Map<Course>(entity);
+                //var course = new Course()
+                //{
+                //    Id = entity.Id,
+                //    Title = entity.Title,
+                //    Fees = entity.Fees,
+                //    StartDate = entity.StartDate
 
-                };
+                //};
                 courses.Add(course);
 
             }
@@ -61,13 +66,9 @@ namespace FirstDemo.Training.Services
             {
 
                 _trainingUnitOfWork.Courses.Add(
-                    new Entities.Course
-                    {
-                        Title = course.Title,
-                        Fees = course.Fees,
-                        StartDate = course.StartDate
-                    }
-                    );
+                   _mapper.Map<Entities.Course>(course));
+                     
+
                 _trainingUnitOfWork.Save();
             }
             
@@ -118,13 +119,7 @@ namespace FirstDemo.Training.Services
                 string.Empty, pageIndex, pageSize);
 
             var resultData = (from course in courseData.data
-                              select new Course
-                              {
-                                  Id = course.Id,
-                                  Title = course.Title,
-                                  Fees = course.Fees,
-                                  StartDate = course.StartDate
-                              }).ToList();
+                              select _mapper.Map<Course>(course)).ToList();
 
             return (resultData, courseData.total, courseData.totalDisplay);
 
@@ -137,14 +132,7 @@ namespace FirstDemo.Training.Services
 
             if (course == null) return null;
 
-            return new Course
-            {
-                Id = course.Id,
-                Title = course.Title,
-                Fees = course.Fees,
-                StartDate = course.StartDate
-
-            };
+            return _mapper.Map<Course>(course);
         }
 
         public void UpdateCourse(Course course)
@@ -159,9 +147,10 @@ namespace FirstDemo.Training.Services
 
             if (courseEntity != null)
             {
-                courseEntity.Title = course.Title;
-                courseEntity.Fees = course.Fees;
-                courseEntity.StartDate = course.StartDate;
+                _mapper.Map(course, courseEntity);
+                //courseEntity.Title = course.Title;
+                //courseEntity.Fees = course.Fees;
+                //courseEntity.StartDate = course.StartDate;
 
                 _trainingUnitOfWork.Save();
             }

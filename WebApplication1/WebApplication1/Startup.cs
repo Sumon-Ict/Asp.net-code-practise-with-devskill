@@ -107,6 +107,8 @@ namespace WebApplication1
 
             services.Configure<SmtpConfiguration>(Configuration.GetSection("Smtp"));
 
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             services.AddControllersWithViews();
             services.AddHttpContextAccessor();
             services.AddRazorPages();

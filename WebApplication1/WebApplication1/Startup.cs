@@ -15,6 +15,9 @@ using WebApplication1.Data;
 using WebApplication1.Models;
 using WebApplication1.Services;
 using FirstDemo.Common;
+using FirstDemo.Membership;
+using FirstDemo.Membership.Contexts;
+using FirstDemo.Membership.Entities;
 
 namespace WebApplication1
 {
@@ -49,6 +52,9 @@ namespace WebApplication1
 
             
             builder.RegisterModule(new WebModule());
+            builder.RegisterModule(new MembershipModule(connectionInfo.connectionString,
+                connectionInfo.migrationAssemblyName));
+
 
         }
 
@@ -70,14 +76,17 @@ namespace WebApplication1
 
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionInfo.connectionString));
+                 options.UseSqlServer(connectionInfo.connectionString, b =>
+                b.MigrationsAssembly(connectionInfo.migrationAssemblyName)));
+
 
             services.AddDbContext<TrainingContext>(options =>
                 options.UseSqlServer(connectionInfo.connectionString, b =>
                 b.MigrationsAssembly(connectionInfo.migrationAssemblyName)));
 
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<ApplicationUser>(options => 
+            options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.ConfigureApplicationCookie(options =>

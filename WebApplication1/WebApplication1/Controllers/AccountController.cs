@@ -53,9 +53,9 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterModel model, string returnUrl = null)
+        public async Task<IActionResult> Register(RegisterModel model)
         {
-            returnUrl ??= Url.Content("~/");
+            model.ReturnUrl ??= Url.Content("~/");
             model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
@@ -70,7 +70,7 @@ namespace WebApplication1.Controllers
                     var callbackUrl = Url.ActionLink(
                         "/Account/ConfirmEmail",
 
-                        values: new { userId = user.Id, code = code, returnUrl = returnUrl },
+                        values: new { userId = user.Id, code = code, returnUrl = model.ReturnUrl },
                         protocol: Request.Scheme);
 
                     await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
@@ -79,12 +79,12 @@ namespace WebApplication1.Controllers
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
                         // return RedirectToPage("RegisterConfirmation", "Account", new { email = model.Email, returnUrl = returnUrl });
-                        return RedirectToAction("RegisterConfirmation", "Account", new { area = "Identity", email = model.Email, returnUrl = returnUrl });
+                        return RedirectToAction("RegisterConfirmation", "Account", new { area = "Identity", email = model.Email, returnUrl = model.ReturnUrl });
                     }
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        return LocalRedirect(model.ReturnUrl);
                     }
                 }
                 foreach (var error in result.Errors)

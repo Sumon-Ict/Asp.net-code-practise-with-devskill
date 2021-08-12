@@ -29,4 +29,5 @@ namespace WebApplication1.Models.Account
             public IList<AuthenticationScheme> ExternalLogins { get; set; }
         
     }
+
 }

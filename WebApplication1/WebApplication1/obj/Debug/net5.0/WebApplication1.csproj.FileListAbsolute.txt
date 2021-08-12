@@ -868,7 +868,6 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplicati
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.TagHelpers.input.cache
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.TagHelpers.output.cache
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.RazorCoreGenerate.cache
-H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Dashboard\Summary.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -1367,13 +1366,9 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplicati
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\FirstDemo.Common.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Course\Edit.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DeletePopupPartial.cshtml.g.cs
-H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
-H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
-H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
-H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
-H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
-H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\AutoMapper.dll
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\FirstDemo.Membership.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\FirstDemo.Membership.pdb

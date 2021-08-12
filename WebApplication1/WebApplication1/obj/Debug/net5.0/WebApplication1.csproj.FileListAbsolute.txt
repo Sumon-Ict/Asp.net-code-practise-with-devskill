@@ -1375,3 +1375,5 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplicati
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\AutoMapper.dll
 H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs

@@ -1,15 +1,23 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using FirstDemo.Membership.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace FirstDemo.Membership.Contexts
-{
-    public class ApplicationDbContext : IdentityDbContext
+{ 
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser,Role,Guid,
+       UserClaim,UserRole,UserLogin,RoleClaim,UserToken>,IApplicationDbContext
+       
     {
         private readonly string _connectionString;
         private readonly string _migrationAssemblyName;
+
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
 
         public ApplicationDbContext(string connectionString, string migrationAssemblyName)
         {

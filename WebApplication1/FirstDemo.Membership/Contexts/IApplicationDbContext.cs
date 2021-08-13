@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstDemo.Membership.Contexts
 {
-  public  class IApplicationDbContext
+  public  interface IApplicationDbContext
     {
     }
 }

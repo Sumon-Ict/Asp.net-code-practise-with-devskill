@@ -24,6 +24,18 @@ namespace WebApplication1.Migrations.ApplicationDb
                 oldType: "nvarchar(128)",
                 oldMaxLength: 128);
 
+            migrationBuilder.AddColumn<string>(
+                name: "FirstName",
+                table: "AspNetUsers",
+                type: "nvarchar(max)",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "LastName",
+                table: "AspNetUsers",
+                type: "nvarchar(max)",
+                nullable: true);
+
             migrationBuilder.AlterColumn<string>(
                 name: "ProviderKey",
                 table: "AspNetUserLogins",
@@ -45,6 +57,14 @@ namespace WebApplication1.Migrations.ApplicationDb
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropColumn(
+                name: "FirstName",
+                table: "AspNetUsers");
+
+            migrationBuilder.DropColumn(
+                name: "LastName",
+                table: "AspNetUsers");
+
             migrationBuilder.AlterColumn<string>(
                 name: "Name",
                 table: "AspNetUserTokens",

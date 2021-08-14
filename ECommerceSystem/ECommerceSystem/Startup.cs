@@ -110,7 +110,7 @@ namespace ECommerceSystem
             {
                 endpoints.MapControllerRoute(
                 name: "areas",
-                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{Id?}"
+                pattern: "{area:exists}/{controller=Product}/{action=Index}/{Id?}"
               );
 
                 endpoints.MapControllerRoute(

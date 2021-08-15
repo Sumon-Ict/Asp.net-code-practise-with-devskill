@@ -2,6 +2,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using ECommerceSystem.Data;
 using ECommerceSystem.Training;
+using ECommerceSystem.Training.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -59,6 +60,13 @@ namespace ECommerceSystem
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionInfo.connectionString));
+
+            //services.AddDbContext<TrainingContext>(options =>
+            //    options.UseSqlServer(connectionInfo.connectionString));
+
+            services.AddDbContext<TrainingContext>(options =>
+              options.UseSqlServer(connectionInfo.connectionString, b =>
+              b.MigrationsAssembly(connectionInfo.migrationAssemblyName)));
 
             services.AddDefaultIdentity<IdentityUser>(options => 
             options.SignIn.RequireConfirmedAccount = true)

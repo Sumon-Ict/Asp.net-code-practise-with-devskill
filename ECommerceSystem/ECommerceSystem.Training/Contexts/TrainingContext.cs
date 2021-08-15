@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ECommerceSystem.Training.Contexts
 {
-  public   class TrainingContext : ITrainingContext
+  public   class TrainingContext :  DbContext, ITrainingContext
     {
         private readonly string _connectionString;
         private readonly string _migrationAssemblyName;

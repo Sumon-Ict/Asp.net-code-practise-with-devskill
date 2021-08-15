@@ -1,6 +1,7 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using ECommerceSystem.Data;
+using ECommerceSystem.Training;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +35,14 @@ namespace ECommerceSystem
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
         public static ILifetimeScope AutofacContainer { get; set; }
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            var connectionInfo = GetConnectionStringAndAssemblyName();
+
+            builder.RegisterModule(new TrainingModule(connectionInfo.connectionString,
+                connectionInfo.migrationAssemblyName));          
+
+        }
 
         private (string connectionString, string migrationAssemblyName) GetConnectionStringAndAssemblyName()
         {

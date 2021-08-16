@@ -10,7 +10,7 @@ namespace ECommerceSystem.Training.Services
   public  interface IProductService
     {
 
-        IList<Product> GetAllProduct();     
+       // IList<Product> GetAllProduct();     
         void CreateProduct(Product product);
         (IList<Product> records, int total, int totalDisplay) GetProducts(int pageIndex, int pageSize,
            string searchText, string sortText);

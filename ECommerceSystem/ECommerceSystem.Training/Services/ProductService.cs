@@ -44,7 +44,7 @@ namespace ECommerceSystem.Training.Services
             }
         }
          
-        public IList<Product> GetAllProduct()
+      /*  public IList<Product> GetAllProduct()
         {
             var productEntities = _trainingUnitOfWork.Products.GetAll();
 
@@ -63,7 +63,7 @@ namespace ECommerceSystem.Training.Services
 
             }
             return products;
-        }
+         } */
 
         public Product GetProduct(int id)
         {

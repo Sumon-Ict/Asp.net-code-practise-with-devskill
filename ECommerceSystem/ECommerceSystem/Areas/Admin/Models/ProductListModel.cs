@@ -52,7 +52,8 @@ namespace ECommerceSystem.Areas.Admin.Models
                         }
                     ).ToArray()
             };
-        }
+        } 
+
 
         internal void Delete(int id)
         {

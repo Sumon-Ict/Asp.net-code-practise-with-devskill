@@ -41,8 +41,9 @@ namespace ECommerceSystem.Areas.Admin.Models
         public void LoadModelData(int id)
         {
             var product = _productService.GetProduct(id);
+
             Id = product.Id;
-            Name = product.Name;
+            Name = product?.Name;
             Price = product.Price;
 
         }

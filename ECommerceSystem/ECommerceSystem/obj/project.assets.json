@@ -63,7 +63,7 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Cryptography.Internal/5.0.5": {
+      "Microsoft.AspNetCore.Cryptography.Internal/5.0.9": {
         "type": "package",
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
@@ -72,10 +72,10 @@
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.5": {
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.9": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "5.0.5"
+          "Microsoft.AspNetCore.Cryptography.Internal": "5.0.9"
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
@@ -790,10 +790,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Identity.Core/5.0.5": {
+      "Microsoft.Extensions.Identity.Core/5.0.9": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "5.0.5",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "5.0.9",
           "Microsoft.Extensions.Logging": "5.0.0",
           "Microsoft.Extensions.Options": "5.0.0"
         },
@@ -804,11 +804,11 @@
           "lib/net5.0/Microsoft.Extensions.Identity.Core.dll": {}
         }
       },
-      "Microsoft.Extensions.Identity.Stores/5.0.5": {
+      "Microsoft.Extensions.Identity.Stores/5.0.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Identity.Core": "5.0.5",
+          "Microsoft.Extensions.Identity.Core": "5.0.9",
           "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
@@ -3201,6 +3201,24 @@
           "bin/placeholder/ECommerceSystem.Data.dll": {}
         }
       },
+      "ECommerceSystem.Membership/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
+          "Microsoft.AspNetCore.Identity.UI": "5.0.5",
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "Microsoft.Extensions.Identity.Stores": "5.0.9"
+        },
+        "compile": {
+          "bin/placeholder/ECommerceSystem.Membership.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerceSystem.Membership.dll": {}
+        }
+      },
       "ECommerceSystem.Training/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3302,10 +3320,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/5.0.5": {
-      "sha512": "scUFIynbIXTqHjhpYB1/x3ehA5LCqd73iakOQdn5GnbU8SZSQ7cv49NG/tYTCjvHcwJ4bQaG6p+5++o7L8R9Uw==",
+    "Microsoft.AspNetCore.Cryptography.Internal/5.0.9": {
+      "sha512": "hqKquh65noRtUHtpo2XNSKEZA9X67gkShZhDzgsUJSG7xfYlHheYVH8pxhD/IgfuIcseVzccIFV1civyjZMQ7w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.internal/5.0.5",
+      "path": "microsoft.aspnetcore.cryptography.internal/5.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3317,14 +3335,14 @@
         "lib/net5.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.internal.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.5": {
-      "sha512": "ToT5ESuztl2BluBdz/x3kyf4Wz4y5k7eVPEbFU3M+dx+5c3RbA8mWdzLYJiNlob86w2s/ZF9OWvm2KYtW0+kBQ==",
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.9": {
+      "sha512": "o9v+Uqw+LIM1Mn1jzn7EfCPgEXSrlg7F+NcR1WmnJt2Xd/rzeSYblTuhe9QB9WZNaXzud+SVKJVyBRQMiWAYYw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/5.0.5",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/5.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3336,7 +3354,7 @@
         "lib/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
-        "microsoft.aspnetcore.cryptography.keyderivation.5.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
@@ -4329,10 +4347,10 @@
         "microsoft.extensions.hosting.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Identity.Core/5.0.5": {
-      "sha512": "Kr7aQwlFiOtgn6z0AUgLigIQxxT0g2d2uGJT5wzwIOHHTviVFEBtRmIgLSy4VXSexFF6SwbCd2YduS2z8qer2A==",
+    "Microsoft.Extensions.Identity.Core/5.0.9": {
+      "sha512": "huZObey5ReQuyjm20d+ogSTCkJNB2162Wm1wKQUbrvb4hicqoBz+DLAX2fg7A5TzHQ2XOMkfpfw+t3z3bW1xuA==",
       "type": "package",
-      "path": "microsoft.extensions.identity.core/5.0.5",
+      "path": "microsoft.extensions.identity.core/5.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4344,14 +4362,14 @@
         "lib/net5.0/Microsoft.Extensions.Identity.Core.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
-        "microsoft.extensions.identity.core.5.0.5.nupkg.sha512",
+        "microsoft.extensions.identity.core.5.0.9.nupkg.sha512",
         "microsoft.extensions.identity.core.nuspec"
       ]
     },
-    "Microsoft.Extensions.Identity.Stores/5.0.5": {
-      "sha512": "LCpVNCqKo9OAKG315e9PnenN8YDll0GzyeHICeGOc8dXu5GL4OZL7fOwYln0CNSefcxh2VKAsCaFr0H9QwAsNQ==",
+    "Microsoft.Extensions.Identity.Stores/5.0.9": {
+      "sha512": "SRJa3uaBvl72tqJ0hklSXLlfmRYSkA35IEtlPfgFBaIECeCwJKcBIJBs1jb9RBeRD4PSDVToL1rX6yYO6XI/Zw==",
       "type": "package",
-      "path": "microsoft.extensions.identity.stores/5.0.5",
+      "path": "microsoft.extensions.identity.stores/5.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4363,7 +4381,7 @@
         "lib/net5.0/Microsoft.Extensions.Identity.Stores.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.xml",
-        "microsoft.extensions.identity.stores.5.0.5.nupkg.sha512",
+        "microsoft.extensions.identity.stores.5.0.9.nupkg.sha512",
         "microsoft.extensions.identity.stores.nuspec"
       ]
     },
@@ -10199,6 +10217,11 @@
       "path": "../ECommerceSystem.Data/ECommerceSystem.Data.csproj",
       "msbuildProject": "../ECommerceSystem.Data/ECommerceSystem.Data.csproj"
     },
+    "ECommerceSystem.Membership/1.0.0": {
+      "type": "project",
+      "path": "../ECommerceSystem.Membership/ECommerceSystem.Membership.csproj",
+      "msbuildProject": "../ECommerceSystem.Membership/ECommerceSystem.Membership.csproj"
+    },
     "ECommerceSystem.Training/1.0.0": {
       "type": "project",
       "path": "../ECommerceSystem.Training/ECommerceSystem.Training.csproj",
@@ -10209,6 +10232,7 @@
     "net5.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "Autofac.Extensions.DependencyInjection >= 7.1.0",
+      "ECommerceSystem.Membership >= 1.0.0",
       "ECommerceSystem.Training >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.5",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.5",
@@ -10249,6 +10273,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj": {
+              "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\ECommerceSystem\\ECommerceSystem.Membership\\ECommerceSystem.Membership.csproj"
+            },
             "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj": {
               "projectPath": "H:\\Asp.net code\\Asp.net-code-practise-with-devskill\\ECommerceSystem\\ECommerceSystem.Training\\ECommerceSystem.Training.csproj"
             }

@@ -1,6 +1,5 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using ECommerceSystem.Data;
 using ECommerceSystem.Training;
 using ECommerceSystem.Training.Contexts;
 using Microsoft.AspNetCore.Builder;
@@ -13,9 +12,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using ECommerceSystem.Membership.Contexts;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ECommerceSystem.Membership;
+using ECommerceSystem.Membership.Entities;
+using ECommerceSystem.Membership.Services;
 
 namespace ECommerceSystem
 {
@@ -36,12 +40,17 @@ namespace ECommerceSystem
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
         public static ILifetimeScope AutofacContainer { get; set; }
+
         public void ConfigureContainer(ContainerBuilder builder)
         {
             var connectionInfo = GetConnectionStringAndAssemblyName();
 
             builder.RegisterModule(new TrainingModule(connectionInfo.connectionString,
-                connectionInfo.migrationAssemblyName));          
+                connectionInfo.migrationAssemblyName));
+
+            builder.RegisterModule(new MembershipModule(connectionInfo.connectionString,
+               connectionInfo.migrationAssemblyName));
+
 
         }
 
@@ -59,18 +68,46 @@ namespace ECommerceSystem
             var connectionInfo = GetConnectionStringAndAssemblyName();
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(connectionInfo.connectionString));
-
-            //services.AddDbContext<TrainingContext>(options =>
-            //    options.UseSqlServer(connectionInfo.connectionString));
+                options.UseSqlServer(connectionInfo.connectionString, b =>
+              b.MigrationsAssembly(connectionInfo.migrationAssemblyName)));
 
             services.AddDbContext<TrainingContext>(options =>
               options.UseSqlServer(connectionInfo.connectionString, b =>
               b.MigrationsAssembly(connectionInfo.migrationAssemblyName)));
 
-            services.AddDefaultIdentity<IdentityUser>(options => 
-            options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+           
+
+            services
+               .AddIdentity<ApplicationUser, Role>()
+               .AddEntityFrameworkStores<ApplicationDbContext>()
+               .AddUserManager<UserManager>()
+               .AddRoleManager<RoleManager>()
+               .AddSignInManager<SignInManager>()
+               .AddDefaultUI()
+               .AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Password settings.
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredLength = 6;
+                options.Password.RequiredUniqueChars = 1;
+
+                // Lockout settings.
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.AllowedForNewUsers = true;
+
+                // User settings.
+                options.User.AllowedUserNameCharacters =
+                "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+                options.User.RequireUniqueEmail = false;
+            });
+
+
 
             services.ConfigureApplicationCookie(options =>
             {

@@ -35,6 +35,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "ECommerceSystem.Membership": "1.0.0",
           "ECommerceSystem.Training": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.5",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
@@ -401,25 +402,25 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Cryptography.Internal/5.0.5": {
+      "Microsoft.AspNetCore.Cryptography.Internal/5.0.9": {
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.521.16708"
+            "fileVersion": "5.0.921.36503"
           }
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.5": {
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.9": {
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "5.0.5"
+          "Microsoft.AspNetCore.Cryptography.Internal": "5.0.9"
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.521.16708"
+            "fileVersion": "5.0.921.36503"
           }
         },
         "compile": {
@@ -448,7 +449,7 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/5.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "5.0.9",
-          "Microsoft.Extensions.Identity.Stores": "5.0.5"
+          "Microsoft.Extensions.Identity.Stores": "5.0.9"
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
@@ -463,7 +464,7 @@
       "Microsoft.AspNetCore.Identity.UI/5.0.5": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Embedded": "5.0.5",
-          "Microsoft.Extensions.Identity.Stores": "5.0.5"
+          "Microsoft.Extensions.Identity.Stores": "5.0.9"
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Identity.UI.Views.V4.dll": {
@@ -1055,32 +1056,32 @@
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0"
         }
       },
-      "Microsoft.Extensions.Identity.Core/5.0.5": {
+      "Microsoft.Extensions.Identity.Core/5.0.9": {
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "5.0.5",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "5.0.9",
           "Microsoft.Extensions.Logging": "5.0.0",
           "Microsoft.Extensions.Options": "5.0.0"
         },
         "runtime": {
           "lib/net5.0/Microsoft.Extensions.Identity.Core.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.521.16708"
+            "fileVersion": "5.0.921.36503"
           }
         },
         "compile": {
           "lib/net5.0/Microsoft.Extensions.Identity.Core.dll": {}
         }
       },
-      "Microsoft.Extensions.Identity.Stores/5.0.5": {
+      "Microsoft.Extensions.Identity.Stores/5.0.9": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Identity.Core": "5.0.5",
+          "Microsoft.Extensions.Identity.Core": "5.0.9",
           "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "lib/net5.0/Microsoft.Extensions.Identity.Stores.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.521.16708"
+            "fileVersion": "5.0.921.36503"
           }
         },
         "compile": {
@@ -2686,6 +2687,22 @@
         },
         "compile": {
           "ECommerceSystem.Data.dll": {}
+        }
+      },
+      "ECommerceSystem.Membership/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
+          "Microsoft.AspNetCore.Identity.UI": "5.0.5",
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "Microsoft.Extensions.Identity.Stores": "5.0.9"
+        },
+        "runtime": {
+          "ECommerceSystem.Membership.dll": {}
+        },
+        "compile": {
+          "ECommerceSystem.Membership.dll": {}
         }
       },
       "ECommerceSystem.Training/1.0.0": {
@@ -4402,19 +4419,19 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/5.0.5": {
+    "Microsoft.AspNetCore.Cryptography.Internal/5.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-scUFIynbIXTqHjhpYB1/x3ehA5LCqd73iakOQdn5GnbU8SZSQ7cv49NG/tYTCjvHcwJ4bQaG6p+5++o7L8R9Uw==",
-      "path": "microsoft.aspnetcore.cryptography.internal/5.0.5",
-      "hashPath": "microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512"
+      "sha512": "sha512-hqKquh65noRtUHtpo2XNSKEZA9X67gkShZhDzgsUJSG7xfYlHheYVH8pxhD/IgfuIcseVzccIFV1civyjZMQ7w==",
+      "path": "microsoft.aspnetcore.cryptography.internal/5.0.9",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.5": {
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/5.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ToT5ESuztl2BluBdz/x3kyf4Wz4y5k7eVPEbFU3M+dx+5c3RbA8mWdzLYJiNlob86w2s/ZF9OWvm2KYtW0+kBQ==",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/5.0.5",
-      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.5.0.5.nupkg.sha512"
+      "sha512": "sha512-o9v+Uqw+LIM1Mn1jzn7EfCPgEXSrlg7F+NcR1WmnJt2Xd/rzeSYblTuhe9QB9WZNaXzud+SVKJVyBRQMiWAYYw==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/5.0.9",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.5.0.9.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/5.0.5": {
       "type": "package",
@@ -4682,19 +4699,19 @@
       "path": "microsoft.extensions.hosting.abstractions/3.1.8",
       "hashPath": "microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512"
     },
-    "Microsoft.Extensions.Identity.Core/5.0.5": {
+    "Microsoft.Extensions.Identity.Core/5.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Kr7aQwlFiOtgn6z0AUgLigIQxxT0g2d2uGJT5wzwIOHHTviVFEBtRmIgLSy4VXSexFF6SwbCd2YduS2z8qer2A==",
-      "path": "microsoft.extensions.identity.core/5.0.5",
-      "hashPath": "microsoft.extensions.identity.core.5.0.5.nupkg.sha512"
+      "sha512": "sha512-huZObey5ReQuyjm20d+ogSTCkJNB2162Wm1wKQUbrvb4hicqoBz+DLAX2fg7A5TzHQ2XOMkfpfw+t3z3bW1xuA==",
+      "path": "microsoft.extensions.identity.core/5.0.9",
+      "hashPath": "microsoft.extensions.identity.core.5.0.9.nupkg.sha512"
     },
-    "Microsoft.Extensions.Identity.Stores/5.0.5": {
+    "Microsoft.Extensions.Identity.Stores/5.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LCpVNCqKo9OAKG315e9PnenN8YDll0GzyeHICeGOc8dXu5GL4OZL7fOwYln0CNSefcxh2VKAsCaFr0H9QwAsNQ==",
-      "path": "microsoft.extensions.identity.stores/5.0.5",
-      "hashPath": "microsoft.extensions.identity.stores.5.0.5.nupkg.sha512"
+      "sha512": "sha512-SRJa3uaBvl72tqJ0hklSXLlfmRYSkA35IEtlPfgFBaIECeCwJKcBIJBs1jb9RBeRD4PSDVToL1rX6yYO6XI/Zw==",
+      "path": "microsoft.extensions.identity.stores/5.0.9",
+      "hashPath": "microsoft.extensions.identity.stores.5.0.9.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/5.0.0": {
       "type": "package",
@@ -5733,6 +5750,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "ECommerceSystem.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerceSystem.Membership/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

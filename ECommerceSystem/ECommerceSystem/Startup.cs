@@ -89,8 +89,8 @@ namespace ECommerceSystem
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
-    
 
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllersWithViews();
             services.AddHttpContextAccessor();
             services.AddRazorPages();

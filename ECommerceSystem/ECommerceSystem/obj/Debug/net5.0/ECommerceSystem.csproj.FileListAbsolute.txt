@@ -464,3 +464,5 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\ECommerceSystem\ECommerceSys
 H:\Asp.net code\Asp.net-code-practise-with-devskill\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DeletePopupPartial.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\ECommerceSystem\ECommerceSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\AutoMapper.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\ECommerceSystem\ECommerceSystem\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

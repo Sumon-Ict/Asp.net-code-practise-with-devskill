@@ -1,4 +1,5 @@
-﻿using ECommerceSystem.Training.BusinessObjects;
+﻿using AutoMapper;
+using ECommerceSystem.Training.BusinessObjects;
 using ECommerceSystem.Training.Exceptions;
 using ECommerceSystem.Training.UnitOfWorks;
 using System;
@@ -12,10 +13,13 @@ namespace ECommerceSystem.Training.Services
     public class ProductService : IProductService
     {
         private readonly ITrainingUnitOfWork _trainingUnitOfWork;
+        public readonly IMapper _mapper;
+
        
-        public ProductService(ITrainingUnitOfWork trainingUnitOfWork)
+        public ProductService(ITrainingUnitOfWork trainingUnitOfWork,IMapper mapper)
         {
             _trainingUnitOfWork = trainingUnitOfWork;
+            _mapper = mapper;
 
         }
 
@@ -34,12 +38,7 @@ namespace ECommerceSystem.Training.Services
             {
 
                 _trainingUnitOfWork.Products.Add(
-                    new Entities.Product
-                    {
-                        Name=product.Name,
-                        Price=product.Price
-                    }
-                    );
+                   _mapper.Map<Entities.Product>(product));              
                 _trainingUnitOfWork.Save();
             }
         }
@@ -71,14 +70,9 @@ namespace ECommerceSystem.Training.Services
 
             if (product == null) return null;
 
-            return new Product
-            {
-                Id=product.Id,
-                Name=product.Name,
-                Price=product.Price
-
-            };
+            return _mapper.Map<Product>(product);
         }
+
 
         public (IList<Product> records, int total, int totalDisplay) GetProducts(int pageIndex, int pageSize, string searchText, string sortText)
         {
@@ -87,12 +81,8 @@ namespace ECommerceSystem.Training.Services
                  string.Empty, pageIndex, pageSize);
 
             var resultData = (from product in productData.data
-                              select new Product
-                              {
-                                  Id = product.Id,
-                                  Name=product.Name,
-                                  Price=product.Price                             
-                              }).ToList();
+                              select _mapper.Map<Product>(product)
+                             ).ToList();
 
             return (resultData, productData.total, productData.totalDisplay);
 
@@ -111,9 +101,8 @@ namespace ECommerceSystem.Training.Services
 
             if (productEntity != null)
             {
-                productEntity.Name = product.Name;
-
-                productEntity.Price = product.Price;              
+                _mapper.Map(product, productEntity);  //copies values of product into productEntity 
+                          
 
                 _trainingUnitOfWork.Save();
             }

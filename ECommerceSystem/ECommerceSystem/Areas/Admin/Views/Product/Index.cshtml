@@ -1,4 +1,6 @@
-﻿@model ECommerceSystem.Areas.Admin.Models.ProductListModel
+﻿@*@model ECommerceSystem.Areas.Admin.Models.ProductListModel*@
+@*datatable ajax user korle model declare na korle hobe*@    
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -16,7 +18,7 @@
     <script>
         $(function () {
             $("#products").DataTable({
-                "processing": true,
+                "processing": true, 
                 "serverSide": true,
                 "ajax": "/Admin/Product/GetProductData",
                 "columnDefs": [

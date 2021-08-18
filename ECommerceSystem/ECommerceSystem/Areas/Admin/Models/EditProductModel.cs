@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using AutoMapper;
 using ECommerceSystem.Training.BusinessObjects;
 using ECommerceSystem.Training.Services;
 using System;
@@ -23,42 +24,41 @@ namespace ECommerceSystem.Areas.Admin.Models
        
 
         private readonly IProductService _productService;
-
-       // private readonly IMapper _mapper;
+        private readonly IMapper _mapper;
 
 
         public EditProductModel()
         {
             _productService = Startup.AutofacContainer.Resolve<IProductService>();
-           // _mapper = Startup.AutofacContainer.Resolve<IMapper>();
+            _mapper = Startup.AutofacContainer.Resolve<IMapper>();
 
         }
-        public EditProductModel(IProductService productService)
+        public EditProductModel(IProductService productService,IMapper mapper)
         {
             _productService = productService;
+            _mapper = mapper;
           
         }
         public void LoadModelData(int id)
         {
             var product = _productService.GetProduct(id);
 
-            Id = product.Id;
-            Name = product?.Name;
-            Price = product.Price;
+            _mapper.Map(product, this);   //values copies product into this class object 
+
+
+            //Id = product.Id;
+            //Name = product.Name;
+            //Price = product.Price;
 
         }
 
         internal void Update()
         {
-           
 
-            var product = new Product
-            {
-                Id = Id,
-                Name=Name,
-                Price=Price         
+            var product = new Product();
 
-            };
+            _mapper.Map(this, product);  ///  _mapper.Map<Product>(this);  same work 
+
             _productService.UpdateProduct(product);
         }
     }

@@ -51,7 +51,7 @@ namespace ECommerceSystem.Areas.Admin.Controllers
             {
                 try
                 {
-                    model.CreateProduct();
+                    model.CreateProduct2();
                 }
                 catch (Exception ex)
                 {

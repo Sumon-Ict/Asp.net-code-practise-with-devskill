@@ -13,19 +13,14 @@ namespace ECommerceSystem.Areas.Admin.Models
     {
         private IProductService _productService;
 
-        private IHttpContextAccessor _httpContextAccessor;
-
-
-
         public ProductListModel()
         {
             _productService = Startup.AutofacContainer.Resolve<IProductService>();
-            _httpContextAccessor = Startup.AutofacContainer.Resolve<IHttpContextAccessor>();
         }
-        public ProductListModel(IProductService productService, IHttpContextAccessor httpContextAccessor)
+        public ProductListModel(IProductService productService)
         {
             _productService = productService;
-            _httpContextAccessor = httpContextAccessor;
+           
         }
 
 

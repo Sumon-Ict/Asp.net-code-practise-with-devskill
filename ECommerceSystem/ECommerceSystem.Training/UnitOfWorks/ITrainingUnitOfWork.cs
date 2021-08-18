@@ -11,5 +11,6 @@ namespace ECommerceSystem.Training.UnitOfWorks
   public  interface ITrainingUnitOfWork : IUnitOfWork
     {
      public  IProductRepository Products { get; }
+       
     }
 }

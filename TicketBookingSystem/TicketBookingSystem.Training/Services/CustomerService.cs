@@ -28,7 +28,7 @@ namespace TicketBookingSystem.Training.Services
             if (customer == null)
                 throw new InvalidParameterException("customer is not provided");
 
-            if (IfNameAlraedyExist(customer.Name))
+            if (IfNameAlreadyUsed(customer.Name))
 
                 throw new DuplicateNameException("this name is already exits");
 
@@ -39,12 +39,19 @@ namespace TicketBookingSystem.Training.Services
 
         public void DeleteCustomer(int id)
         {
-            throw new NotImplementedException();
+            _trainingUnitOfWork.Customers.Remove(id);
+            _trainingUnitOfWork.Save();
+
         }
 
         public Customer GetCustomer(int id)
         {
-            throw new NotImplementedException();
+            var customer = _trainingUnitOfWork.Customers.GetById(id);
+            if (customer == null)
+                return null;
+
+           return  _mapper.Map<Customer>(customer);
+
         }
 
       
@@ -67,12 +74,31 @@ namespace TicketBookingSystem.Training.Services
 
         public void UpdateCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+            if (customer== null)
+                throw new InvalidOperationException("Customer is missing");
+
+            if (IfNameAlreadyUsed(customer.Name, customer.Id))
+                throw new DuplicateNameException("this name is already used");
+
+
+            var customerEntity = _trainingUnitOfWork.Customers.GetById(customer.Id);
+
+            if (customerEntity != null)
+            {
+                _mapper.Map(customer, customerEntity);
+                _trainingUnitOfWork.Save();
+            }
+            else
+                throw new InvalidOperationException("Couldn't found customer ");
         }
 
-        private bool IfNameAlraedyExist(string name)=>
+        private bool IfNameAlreadyUsed(string name)=>
             _trainingUnitOfWork.Customers.GetCount(x => x.Name == name) > 0;
 
+        private bool IfNameAlreadyUsed(string name, int id) =>
+            _trainingUnitOfWork.Customers.GetCount(x => x.Name == name && x.Id != id) > 0;
+
+            
 
         
     }

@@ -470,3 +470,8 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBo
 H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\bin\Debug\net5.0\TicketBookingSystem.Training.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\bin\Debug\net5.0\TicketBookingSystem.Data.pdb
 H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Customer\Create.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Customer\Edit.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_DeletePopupPartial.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Index.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Create.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\TicketBookingSystem\TicketBookingSystem\obj\Debug\net5.0\Razor\Areas\Admin\Views\Ticket\Edit.cshtml.g.cs

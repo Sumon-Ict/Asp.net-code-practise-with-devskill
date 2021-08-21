@@ -13,6 +13,11 @@ namespace TicketBookingSystem.Profiles
         public CustomerProfile()
         {
             CreateMap<CreateCustomerModel, BO.Customer>().ReverseMap();
+            CreateMap<EditCustomerModel, BO.Customer>().ReverseMap();
+            CreateMap<CreateTicketModel, BO.Ticket>().ReverseMap();
+            CreateMap<EditTicketModel, BO.Ticket>().ReverseMap();
+
+
 
         }
     }

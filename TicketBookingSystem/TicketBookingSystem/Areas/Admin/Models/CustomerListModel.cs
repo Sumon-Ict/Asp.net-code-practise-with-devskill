@@ -48,6 +48,10 @@ namespace TicketBookingSystem.Areas.Admin.Models
             };
         }
 
+        internal void delete(int id)
+        {
+            _customerService.DeleteCustomer(id);
 
+        }
     }
 }

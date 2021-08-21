@@ -48,8 +48,6 @@ namespace TicketBookingSystem.Areas.Admin.Controllers
 
         }
 
-
-
         public IActionResult Index()
         {
             var model = new CustomerListModel();
@@ -65,6 +63,51 @@ namespace TicketBookingSystem.Areas.Admin.Controllers
             var model = new CustomerListModel();
             var data = model.GetAllCustomer(dataTablesModel);   
             return Json(data);
+
+
+        }
+
+      
+        public IActionResult Edit(int id)
+        {
+            var model = new EditCustomerModel();
+
+            model.LoadModelData(id);
+
+            return View(model);
+
+        }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult Edit(EditCustomerModel model)
+        {
+            if(ModelState.IsValid)
+            {
+                try
+                {
+                    model.UpDateCustomer();
+
+                }
+                catch(Exception ex)
+                {
+                    ModelState.AddModelError("", "failed update the customer ");
+                    _logger.LogError(ex, "update customer failed");
+
+                }
+            }
+           
+            return View(model);
+
+        }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            var model = new CustomerListModel();
+            model.delete(id);
+
+            return RedirectToAction(nameof(Index));
+
 
 
         }

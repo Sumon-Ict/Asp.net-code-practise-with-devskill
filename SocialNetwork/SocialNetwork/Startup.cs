@@ -9,7 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SocialNetwork.Common;
 using SocialNetwork.Data;
+using SocialNetwork.Training;
+using SocialNetwork.Training.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,8 +41,11 @@ namespace SocialNetwork
         {
             var connectionInfo = GetConnectionStringAndAssemblyName();
 
-            //builder.RegisterModule(new TrainingModule(connectionInfo.connectionString,
-            //    connectionInfo.migrationAssemblyName));
+            builder.RegisterModule(new TrainingModule(connectionInfo.connectionString,
+                connectionInfo.migrationAssemblyName));
+
+            builder.RegisterModule(new CommonModule());
+
 
 
         }
@@ -60,9 +66,9 @@ namespace SocialNetwork
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionInfo.connectionString));
 
-            //services.AddDbContext<TrainingContext>(options =>
-            //  options.UseSqlServer(connectionInfo.connectionString, b =>
-            //  b.MigrationsAssembly(connectionInfo.migrationAssemblyName)));
+            services.AddDbContext<TrainingContext>(options =>
+              options.UseSqlServer(connectionInfo.connectionString, b =>
+              b.MigrationsAssembly(connectionInfo.migrationAssemblyName)));
 
             services.AddDefaultIdentity<IdentityUser>(options =>
             options.SignIn.RequireConfirmedAccount = true)

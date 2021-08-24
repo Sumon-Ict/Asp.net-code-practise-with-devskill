@@ -465,3 +465,13 @@ H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\
 H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\bin\Debug\net5.0\SocialNetwork.Data.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\bin\Debug\net5.0\SocialNetwork.Training.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\bin\Debug\net5.0\SocialNetwork.Training.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\bin\Debug\net5.0\SocialNetwork.Data.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\bin\Debug\net5.0\SocialNetwork.Common.dll
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\bin\Debug\net5.0\SocialNetwork.Common.pdb
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\obj\Debug\net5.0\Razor\Areas\Admin\Views\Member\Index.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\obj\Debug\net5.0\Razor\Areas\Admin\Views\Member\Create.cshtml.g.cs
+H:\Asp.net code\Asp.net-code-practise-with-devskill\SocialNetwork\SocialNetwork\obj\Debug\net5.0\Razor\Areas\Admin\Views\Member\Edit.cshtml.g.cs
